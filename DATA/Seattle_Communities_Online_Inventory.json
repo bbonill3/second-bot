@@ -1,0 +1,1084 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "5ytf-wban",
+      "name" : "Seattle Communities Online Inventory",
+      "attribution" : "Community Technology, Department of Information Technology, City of Seattle",
+      "attributionLink" : "http://www.seattle.gov/communitiesonline/neighborhoods.htm",
+      "averageRating" : 0,
+      "category" : "Community",
+      "createdAt" : 1268946236,
+      "description" : "This dataset provides a list of websites, blogs, wikis, Twitter feeds, and Facebook pages associated with neighborhood-specific groups and organizations. To add a new site visit http://www.seattle.gov/communitiesonline/addform.htm/jmzd-2qjz",
+      "displayType" : "table",
+      "downloadCount" : 5060,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1475740867,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 10269122,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1424304946,
+      "publicationGroup" : 216256,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1475739096,
+      "tableId" : 2273557,
+      "totalTimesRated" : 0,
+      "viewCount" : 29067,
+      "viewLastModified" : 1424304946,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 189846379,
+        "name" : "Name",
+        "dataTypeName" : "text",
+        "description" : "Name of neighborhood/community group or organization or, if site not associated with a specific group, title of website",
+        "fieldName" : "name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1301778,
+        "width" : 206,
+        "cachedContents" : {
+          "largest" : "Your South Park",
+          "non_null" : 266,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Ravenna Blog",
+            "count" : 20
+          }, {
+            "item" : "Rosiehood",
+            "count" : 19
+          }, {
+            "item" : "The Maple Leafer",
+            "count" : 18
+          }, {
+            "item" : "University District Food Bank",
+            "count" : 17
+          }, {
+            "item" : "Wallingford Seattle Blog",
+            "count" : 16
+          }, {
+            "item" : "Wallyhood - Wallingford Seattle Blog",
+            "count" : 15
+          }, {
+            "item" : "Wedgwood Community Council",
+            "count" : 14
+          }, {
+            "item" : "Wedgwood View",
+            "count" : 13
+          }, {
+            "item" : "West Seattle Blog",
+            "count" : 12
+          }, {
+            "item" : "West Seattle Herald",
+            "count" : 11
+          }, {
+            "item" : "Youngstown Cultural Arts Center",
+            "count" : 10
+          }, {
+            "item" : "Your Capitol Hill",
+            "count" : 9
+          }, {
+            "item" : "Your South Park",
+            "count" : 8
+          }, {
+            "item" : "Capitol Hill EcoDistrict",
+            "count" : 7
+          }, {
+            "item" : "West Woodland Neighbors",
+            "count" : 6
+          }, {
+            "item" : "facebook",
+            "count" : 5
+          } ],
+          "smallest" : "15th Ave Community"
+        },
+        "format" : { }
+      }, {
+        "id" : 189846380,
+        "name" : "url",
+        "dataTypeName" : "url",
+        "description" : "web address for the neighborhood/community group or organization, or web address for blog",
+        "fieldName" : "url",
+        "position" : 2,
+        "renderTypeName" : "url",
+        "tableColumnId" : 1301779,
+        "width" : 256,
+        "cachedContents" : {
+          "largest" : {
+            "url" : "https://www.facebook.com/vintagewestwoodland"
+          },
+          "non_null" : 265,
+          "null" : 1,
+          "top" : [ {
+            "item" : {
+              "url" : "http://www.facebook.com/westseattleblog"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "url" : "http://westseattleblog.com/"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "url" : "http://www.wschamber.com/"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "url" : "http://www.westseattleherald.com/"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "url" : "http://twitter.com/westseattleher"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "url" : "http://www.facebook.com/wsherald"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "url" : "http://www.westseattletc.org"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "url" : "https://www.facebook.com/groups/westwoodlandneighbors"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "url" : "http://wwrhah.wordpress.com/"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "url" : "http://www.wccda.org/home"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "url" : "http://twitter.com/whitecentercda"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "url" : "http://whitecenternow.com/"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "url" : "http://www.wingluke.org/"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "url" : "http://youngstownarts.org"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "url" : "http://www.yourcapitolhill.com/"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "url" : "http://groups.yahoo.com/group/yoursouthpark/"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "url" : "http://capitolhillecodistrict.org/"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "url" : "https://westwoodland.wordpress.com/"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "description" : "social network",
+              "url" : "http://www.facebook.com"
+            },
+            "count" : 2
+          } ],
+          "smallest" : {
+            "description" : "social network",
+            "url" : "http://www.facebook.com"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 189846381,
+        "name" : "Neighborhood",
+        "dataTypeName" : "text",
+        "description" : "Name of neighborhood within the City of Seattle",
+        "fieldName" : "neighborhood",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1301777,
+        "width" : 122,
+        "cachedContents" : {
+          "largest" : "White Center",
+          "non_null" : 266,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Capitol Hill",
+            "count" : 20
+          }, {
+            "item" : "Brighton",
+            "count" : 19
+          }, {
+            "item" : "Ballard",
+            "count" : 18
+          }, {
+            "item" : "Columbia City",
+            "count" : 17
+          }, {
+            "item" : "Central District",
+            "count" : 16
+          }, {
+            "item" : "Chinatown International District",
+            "count" : 15
+          }, {
+            "item" : "Delridge",
+            "count" : 14
+          }, {
+            "item" : "South Lake Union",
+            "count" : 13
+          }, {
+            "item" : "Eastlake",
+            "count" : 12
+          }, {
+            "item" : "Rainier Valley",
+            "count" : 11
+          }, {
+            "item" : "Fremont",
+            "count" : 10
+          }, {
+            "item" : "Green Lake",
+            "count" : 9
+          }, {
+            "item" : "Greenwood",
+            "count" : 8
+          }, {
+            "item" : "Lake City",
+            "count" : 7
+          }, {
+            "item" : "Laurelhurst",
+            "count" : 6
+          }, {
+            "item" : "Madison Park",
+            "count" : 5
+          }, {
+            "item" : "Magnolia",
+            "count" : 4
+          }, {
+            "item" : "Maple Leaf",
+            "count" : 3
+          }, {
+            "item" : "Wallingford",
+            "count" : 2
+          }, {
+            "item" : "Othello",
+            "count" : 1
+          } ],
+          "smallest" : "Admiral"
+        },
+        "format" : { }
+      }, {
+        "id" : 189846382,
+        "name" : "district",
+        "dataTypeName" : "text",
+        "description" : "district of the City as defined by the Department of Neighborhoods (http://seattle.gov/neighborhoods/nsc/) ",
+        "fieldName" : "district",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1301784,
+        "width" : 71,
+        "cachedContents" : {
+          "largest" : "Southwest, Delridge",
+          "non_null" : 265,
+          "null" : 1,
+          "top" : [ {
+            "item" : "East",
+            "count" : 20
+          }, {
+            "item" : "Southwest",
+            "count" : 19
+          }, {
+            "item" : "Downtown",
+            "count" : 18
+          }, {
+            "item" : "Greater Duwamish",
+            "count" : 17
+          }, {
+            "item" : "Southeast",
+            "count" : 16
+          }, {
+            "item" : "Ballard",
+            "count" : 15
+          }, {
+            "item" : "Northeast",
+            "count" : 14
+          }, {
+            "item" : "Northwest",
+            "count" : 13
+          }, {
+            "item" : "Central",
+            "count" : 12
+          }, {
+            "item" : "Delridge",
+            "count" : 11
+          }, {
+            "item" : "Lake Union",
+            "count" : 10
+          }, {
+            "item" : "Magnolia/Queen Anne",
+            "count" : 9
+          }, {
+            "item" : "North",
+            "count" : 8
+          }, {
+            "item" : "Southwest, Delridge",
+            "count" : 7
+          } ],
+          "smallest" : "Ballard"
+        },
+        "format" : { }
+      }, {
+        "id" : 189846383,
+        "name" : "category",
+        "dataTypeName" : "text",
+        "description" : "short description of the neighborhood/community group or organization, or description of website",
+        "fieldName" : "category",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1301780,
+        "width" : 166,
+        "cachedContents" : {
+          "largest" : "watershed info",
+          "non_null" : 262,
+          "null" : 4,
+          "top" : [ {
+            "item" : "neighborhood association",
+            "count" : 20
+          }, {
+            "item" : "community council",
+            "count" : 19
+          }, {
+            "item" : "community group",
+            "count" : 18
+          }, {
+            "item" : "business association",
+            "count" : 17
+          }, {
+            "item" : "chamber of commerce",
+            "count" : 16
+          }, {
+            "item" : "neighborhood council",
+            "count" : 15
+          }, {
+            "item" : "park issues",
+            "count" : 14
+          }, {
+            "item" : "historical society",
+            "count" : 13
+          }, {
+            "item" : "news, events, criminal activity, food",
+            "count" : 12
+          }, {
+            "item" : "news, events, human interest, criminal activity, shopping",
+            "count" : 11
+          }, {
+            "item" : "news, events, issues",
+            "count" : 10
+          }, {
+            "item" : "neighborhood-issues, neighborhood-planning",
+            "count" : 9
+          }, {
+            "item" : "education",
+            "count" : 8
+          }, {
+            "item" : "news, events, human interest, criminal activity, food, shopping",
+            "count" : 7
+          }, {
+            "item" : "community association",
+            "count" : 6
+          }, {
+            "item" : "news, events",
+            "count" : 5
+          }, {
+            "item" : "news, events, human interest, criminal activity",
+            "count" : 4
+          }, {
+            "item" : "nonprofit",
+            "count" : 3
+          }, {
+            "item" : "food bank",
+            "count" : 2
+          }, {
+            "item" : "neighborhood group",
+            "count" : 1
+          } ],
+          "smallest" : "15th avenue residents"
+        },
+        "format" : { }
+      }, {
+        "id" : 189846384,
+        "name" : "community, commercial",
+        "dataTypeName" : "text",
+        "description" : "“community” refers to sites owned and maintained by neighborhood/community groups, “commercial” refers to neighborhood sites featuring ads and not associated with a neighborhood/community group",
+        "fieldName" : "community_commercial",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1301781,
+        "width" : 167,
+        "cachedContents" : {
+          "largest" : "nonprofit",
+          "non_null" : 264,
+          "null" : 2,
+          "top" : [ {
+            "item" : "community",
+            "count" : 20
+          }, {
+            "item" : "commercial",
+            "count" : 19
+          }, {
+            "item" : "nonprofit",
+            "count" : 18
+          }, {
+            "item" : "community ",
+            "count" : 17
+          } ],
+          "smallest" : "commercial"
+        },
+        "format" : { }
+      }, {
+        "id" : 189846385,
+        "name" : "type",
+        "dataTypeName" : "text",
+        "description" : "online tool being used (examples: blog, wiki, twitter)  ",
+        "fieldName" : "type",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1301782,
+        "width" : 87,
+        "cachedContents" : {
+          "largest" : "wiki",
+          "non_null" : 265,
+          "null" : 1,
+          "top" : [ {
+            "item" : "email list",
+            "count" : 20
+          }, {
+            "item" : "blog",
+            "count" : 19
+          }, {
+            "item" : "website",
+            "count" : 18
+          }, {
+            "item" : "facebook page",
+            "count" : 17
+          }, {
+            "item" : "wiki",
+            "count" : 16
+          }, {
+            "item" : "twitter",
+            "count" : 15
+          }, {
+            "item" : "web",
+            "count" : 14
+          }, {
+            "item" : "webstie",
+            "count" : 13
+          }, {
+            "item" : "ning",
+            "count" : 12
+          } ],
+          "smallest" : "blog"
+        },
+        "format" : { }
+      }, {
+        "id" : 189846386,
+        "name" : "region",
+        "dataTypeName" : "text",
+        "description" : "area of the City as defined by “Neighborhoods on the Net” (http://www.seattle.gov/neighborhoods/net/",
+        "fieldName" : "region",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1301783,
+        "width" : 50,
+        "cachedContents" : {
+          "largest" : "W ",
+          "non_null" : 265,
+          "null" : 1,
+          "top" : [ {
+            "item" : "E",
+            "count" : 20
+          }, {
+            "item" : "SW",
+            "count" : 19
+          }, {
+            "item" : "W",
+            "count" : 18
+          }, {
+            "item" : "S",
+            "count" : 17
+          }, {
+            "item" : "SE",
+            "count" : 16
+          }, {
+            "item" : "NW",
+            "count" : 15
+          }, {
+            "item" : "NE",
+            "count" : 14
+          }, {
+            "item" : "N",
+            "count" : 13
+          }, {
+            "item" : "W ",
+            "count" : 12
+          }, {
+            "item" : "N ",
+            "count" : 11
+          }, {
+            "item" : "NW ",
+            "count" : 10
+          } ],
+          "smallest" : "E"
+        },
+        "format" : { }
+      }, {
+        "id" : 189846387,
+        "name" : "Council District",
+        "dataTypeName" : "number",
+        "fieldName" : "council_district",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 24410984,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "7",
+          "non_null" : 265,
+          "average" : "3.747169811320755",
+          "null" : 1,
+          "top" : [ {
+            "item" : "3",
+            "count" : 20
+          }, {
+            "item" : "1",
+            "count" : 19
+          }, {
+            "item" : "7",
+            "count" : 18
+          }, {
+            "item" : "2",
+            "count" : 17
+          }, {
+            "item" : "6",
+            "count" : 16
+          }, {
+            "item" : "5",
+            "count" : 15
+          }, {
+            "item" : "4",
+            "count" : 14
+          } ],
+          "smallest" : "1",
+          "sum" : "993"
+        },
+        "format" : { }
+      }, {
+        "id" : 189846388,
+        "name" : "Email Contact",
+        "dataTypeName" : "email",
+        "fieldName" : "email_contact",
+        "position" : 10,
+        "renderTypeName" : "email",
+        "tableColumnId" : 24411000,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "yoursouthpark@yahoo.com",
+          "non_null" : 62,
+          "null" : 204,
+          "top" : [ {
+            "item" : "gucc@udistrictchamber.org",
+            "count" : 20
+          }, {
+            "item" : "udistrictservicefund@udistrictchamber.org",
+            "count" : 19
+          }, {
+            "item" : "westwoodlandneighbors@gmail.com",
+            "count" : 18
+          }, {
+            "item" : "info@wallingfordchamber.org",
+            "count" : 17
+          }, {
+            "item" : "pres@wallingfordcc.org",
+            "count" : 16
+          }, {
+            "item" : "blog@wallyhood.org",
+            "count" : 15
+          }, {
+            "item" : "blockwatch@wedgwoodcc.org",
+            "count" : 14
+          }, {
+            "item" : "wcc@wedgwoodcc.org",
+            "count" : 13
+          }, {
+            "item" : "tips@wedgwoodview.com",
+            "count" : 12
+          }, {
+            "item" : "editor@westseattleblog.com",
+            "count" : 11
+          }, {
+            "item" : "info@wschamber.com",
+            "count" : 10
+          }, {
+            "item" : "patr@robinsonnews.com",
+            "count" : 9
+          }, {
+            "item" : "info@westseattletc.org",
+            "count" : 8
+          }, {
+            "item" : "sp496761@gmail.com",
+            "count" : 7
+          }, {
+            "item" : "contact@wwrhah.org",
+            "count" : 6
+          }, {
+            "item" : "sili@wccda.org",
+            "count" : 5
+          }, {
+            "item" : "whitecenternow@gmail.com",
+            "count" : 4
+          }, {
+            "item" : "office@youngstownarts.org",
+            "count" : 3
+          }, {
+            "item" : "yoursouthpark@yahoo.com",
+            "count" : 2
+          }, {
+            "item" : "info@capitolhillecodistrict.org",
+            "count" : 1
+          } ],
+          "smallest" : "15thave_community@yahoogroups.com"
+        },
+        "format" : { }
+      }, {
+        "id" : 189846389,
+        "name" : "Validate",
+        "dataTypeName" : "text",
+        "fieldName" : "validate",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 24411001,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 266
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Data Owner" : {
+            "Owner" : "Department of Information Technology"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "page" : true,
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "name"
+          } ]
+        },
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "mfpe-tfi4",
+        "displayName" : "Community Technology",
+        "roleName" : "publisher",
+        "screenName" : "Community Technology",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 189846379,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "mfpe-tfi4",
+        "displayName" : "Community Technology",
+        "roleName" : "publisher",
+        "screenName" : "Community Technology",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "neighborhood groups", "blogs", "wikis", "facebook", "twitter" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "246EB9C5-EA7C-406F-8904-26695DE4882E", 1, 1422955558, "390584", 1422955558, "390584", "{\n}", "15th Ave Community", [ "http://groups.yahoo.com/group/15thAve_Community/", null ], "Capitol Hill", "East", "15th avenue residents", "community", "email list", "E", "3", "15thave_community@yahoogroups.com", null ]
+, [ 2, "3E84D8B2-DC9E-47AB-9E64-8F6164014D1B", 2, 1422955558, "390584", 1422955558, "390584", "{\n}", "Admiral Neighborhood Association", [ "http://groups.yahoo.com/group/AdmiralNeighborhood/", null ], "Admiral", "Southwest", "neighborhood association", "community", "email list", "SW", "1", "admiralneighborhood@yahoogroups.com", null ]
+, [ 3, "B53A5A23-E005-4D26-A6F7-269201422109", 3, 1422955558, "390584", 1422955558, "390584", "{\n}", "Alki News/Alki Community Council", [ "http://alkinews.wordpress.com/", null ], "Alki", "Southwest", "news, council meetings", "community", "blog", "SW", "1", "larry@alkinews.com", null ]
+, [ 4, "56A1D730-F744-4667-B1AE-F2D547F7721E", 4, 1422955558, "390584", 1422955558, "390584", "{\n}", "All About Belltown", [ "http://www.belltown.org/", null ], "Belltown", "Downtown", "community council", "community", "website", "W", "7", "info@belltown.org", null ]
+, [ 5, "0C824AC3-A1CB-4B9F-824B-9A1682E70596", 5, 1422955558, "390584", 1422955558, "390584", "{\n}", "All About South Park", [ "http://www.allaboutsouthpark.com/", null ], "South Park", "Greater Duwamish", "neighborhood info", "community", "website", "S", "1", "info@allaboutsouthpark.com", null ]
+, [ 6, "18A17B4C-D9D5-423D-90B2-E51A3325582F", 6, 1422955558, "390584", 1422955558, "390584", "{\n}", "Angel-Morgan Neighborhood Association", [ "http://groups.yahoo.com/group/angelmorganneighbors/", null ], "Brighton", "Southeast", "crime, events, neighborhood-issues", "community", "website", "SE", "2", "angelmorganneighbors@yahoo.com", null ]
+, [ 7, "D0441A4A-5D80-4947-A2AE-A0585FA93D48", 7, 1422955558, "390584", 1422955558, "390584", "{\n}", "ArtsWest", [ "http://www.artswest.org/?q=node/28", null ], "West Seattle", "Southwest", "arts", "community", "website", "SW", "1", "sandyf@artswest.org", null ]
+, [ 8, "1F3FF7A3-5B6F-49F7-9766-1664622A3E27", 8, 1422955558, "390584", 1422955558, "390584", "{\n}", "At Large in Ballard", [ "http://blog.seattlepi.com/ballard/", null ], "Ballard", "Ballard", "news, human interest", "commercial", "blog", "NW", "6", "newmedia@seattlepi.com", null ]
+, [ 9, "E7785E81-367F-4606-A547-EEC476950559", 9, 1422955558, "390584", 1422955558, "390584", "{\n}", "Aurora Seattle", [ "http://www.auroraseattle.com/", null ], "Regional Sites", "Northeast", "news, traffic, planning", "community", "blog", "NE", "5", null, null ]
+, [ 10, "BCCD9847-1916-4C36-82C8-28321542A484", 10, 1422955558, "390584", 1422955558, "390584", "{\n}", "Ballard Chamber of Commerce", [ "http://www.ballardchamber.com/", null ], "Ballard", "Ballard", "chamber of commerce", "community", "website", "NW", "6", "info@ballardchamber.com", null ]
+, [ 11, "95AB2B9A-4489-45F4-AEEF-2819D3AD0CA6", 11, 1422955558, "390584", 1422955558, "390584", "{\n}", "Ballard District Council", [ "http://ballarddistrict.wordpress.com", null ], "Ballard", "Ballard", "district council", "community", "website", "NW", "6", "thomas.whittemore@seattle.gov", null ]
+, [ 12, "2A6AE164-E18B-4E86-91CC-426405870132", 12, 1422955558, "390584", 1422955558, "390584", "{\n}", "Ballard Historical Society", [ "http://www.ballardhistory.org/", null ], "Ballard", "Ballard", "historical society", "community", "website", "NW", "6", "president@ballardhistory.org", null ]
+, [ 13, "944A57E3-D487-4BD3-A027-4BF37BA9E5FC", 13, 1422955558, "390584", 1422955558, "390584", "{\n}", "Ballard Moms", [ "http://groups.yahoo.com/group/BallardMoms/", null ], "Ballard", "Ballard", "ballard parents", "community", "email list", "NW", "6", "ballardmoms@yahoo.com", null ]
+, [ 14, "3483B00B-2BFE-49B2-B280-702336AFBD87", 14, 1422955558, "390584", 1422955558, "390584", "{\n}", "Ballard Neighbor Connection", [ "http://groups.yahoo.com/group/BallardNeighborConnection/", null ], "Ballard", "Ballard", "neighborhood residents", "community", "email list", "NW", "6", "ballardneighborconnection@yahoo.com", null ]
+, [ 15, "94B08E29-AF36-4B4B-8ED5-B68F1ACB009A", 15, 1422955558, "390584", 1422955558, "390584", "{\n}", "Beach Drive Blog", [ "http://beachdriveblog.com", null ], "Alki", "Southwest", "news, home sales, crime", "commercial", "blog", "SW", "1", null, null ]
+, [ 16, "058C08F4-7464-4AF2-9616-A3FA56BF0B13", 16, 1422955558, "390584", 1422955558, "390584", "{\n}", "Beacon BIKES", [ "https://www.facebook.com/pages/Beacon-BIKES/123320897689573?sk=info&ref=page_internal", null ], "Beacon Hill", "Greater Duwamish", "community group", "community", "facebook page", "SE", "2", "beacon-bikes@facebook.com", null ]
+, [ 17, "6561513A-CA87-4D7E-8A4C-6AE4BBCB7CEE", 17, 1422955558, "390584", 1422955558, "390584", "{\n}", "Beacon Hill Blog", [ "http://beaconhill.seattle.wa.us/", null ], "Beacon Hill", "Greater Duwamish", "news, events, food, nightlife, criminal activity", "commercial", "blog", "SE", "2", "blog@beaconhill.seattle.wa.us", null ]
+, [ 18, "C842AB4C-4560-4D14-807F-7D6398CD48E3", 18, 1422955558, "390584", 1422955558, "390584", "{\n}", "Beacon Hill Merchants Association", [ "http://www.beaconhillmerchants.com/", null ], "Beacon Hill", "Greater Duwamish", "merchants association", "community", "website", "SE", "2", null, null ]
+, [ 19, "48A061F2-E68C-441E-8E5E-A00DBFB76B1F", 19, 1422955558, "390584", 1422955558, "390584", "{\n}", "Belltown Business Association", [ "http://www.belltown.org/bba", null ], "Belltown", "Downtown", "business association", "community", "website", "W", "7", "tenglish@plymouthhousing.org", null ]
+, [ 20, "6637EEC3-43A2-441A-B655-9CCCD796ABB1", 20, 1422955558, "390584", 1422955558, "390584", "{\n}", "Belltown Seattle", [ "http://belltowninseattle.com/", null ], "Belltown", "Downtown", "dining, events, news", "community", "website", "W", "7", null, null ]
+, [ 21, "E76782DE-B5DA-4B42-A414-2E3170F5F357", 21, 1422955558, "390584", 1422955558, "390584", "{\n}", "Bike Works!", [ "http://www.bikeworks.org/", null ], "Columbia City", "Southeast", "community group", "community", "website", "SE", "2", "info@bikeworks.org", null ]
+, [ 22, "C062303C-171F-4980-978E-068590251F5E", 22, 1422955558, "390584", 1422955558, "390584", "{\n}", "Blue Ridge Club", [ "http://www.blueridgeseattle.com/index.php", null ], "Blue Ridge", "Northwest", "homeowners club", "community", "website", "NW", "4", "bulletineditor@blueridgeseattle.com", null ]
+, [ 23, "C94BF617-4DFD-40F2-8DD0-1A4264BCFF9A", 23, 1422955558, "390584", 1422955558, "390584", "{\n}", "Brighton Neighborhood-Seattle Facebook", [ "https://www.facebook.com/brightonneighborhood", null ], "Brighton", "Southeast", "neighborhood-issues, neighborhood-planning", "community", "facebook page", "SE", "2", "brightonneighborhood@facebook.com", null ]
+, [ 24, "1BD4494E-17CA-4CD8-9020-88BFDA629521", 24, 1422955558, "390584", 1422955558, "390584", "{\n}", "Broadview Community Council", [ "http://www.broadviewseattle.org/", null ], "Broadview", "Northwest", "community council", "community", "blog", "NW", "4", "susangeorge@broadviewseattle.org", null ]
+, [ 25, "6361A039-CB89-41A5-BA5B-1E56FCC6C038", 25, 1422955558, "390584", 1422955558, "390584", "{\n}", "Capitol Hill Community Council", [ "http://chcc.wikidot.com/", null ], "Capitol Hill", "East", "community council, news, events", "community", "wiki", "E", "3", "chcc.officers@gmail.com", null ]
+, [ 26, "F1CA7807-6CAD-40D2-A7C8-9A52A73E7741", 26, 1422955558, "390584", 1422955558, "390584", "{\n}", "Capitol Hill Housing", [ "http://capitolhillhousing.org/", null ], "Capitol Hill", "East", "affordable housing", "community", "website", "E", "3", null, null ]
+, [ 27, "843A1E7C-33F3-4FEE-A96C-3ECFA15B7399", 27, 1422955558, "390584", 1422955558, "390584", "{\n}", "Capitol Hill Seattle Blog", [ "http://www.capitolhillseattle.com/", null ], "Capitol Hill", "East", "news, events, food, neighborhood-issues", "community", "blog", "E", "3", "chs@capitolhillseattle.com", null ]
+, [ 28, "B2A78E9E-F84E-4E47-8BF4-D51F9AA8997E", 28, 1422955558, "390584", 1422955558, "390584", "{\n}", "Capitol Hill Triangle", [ "http://chtriangle.blogspot.com/", null ], "Capitol Hill", "East", "local miscellany ", "commercial", "blog", "E", "3", null, null ]
+, [ 29, "F21E6B7C-90FC-466E-99D7-AE723FBFC397", 29, 1422955558, "390584", 1422955558, "390584", "{\n}", "Central Area Community Festival Association", [ "http://www.cacf.com/", null ], "Central District", "Central", "festival planning association", "community", "website", "E", "3", "vmin@juno.com", null ]
+, [ 30, "CE12C268-FF99-4B61-A155-F7E353726D79", 30, 1422955558, "390584", 1422955558, "390584", "{\n}", "Central Ballard Residents Association", [ "http://www.centralballard.org", null ], "Ballard", "Ballard", "resident association", "community", "website", "NW", "6", "centralballard@gmail.com", null ]
+, [ 31, "18F75280-1FD4-473A-A255-20BC56F524CA", 31, 1422955558, "390584", 1422955558, "390584", "{\n}", "Central District News", [ "http://www.centraldistrictnews.com/", null ], "Central District", "Central", "news, events, food, drink, reviews", "commercial", "blog", "E", "3", "tips@centraldistrictnews.com", null ]
+, [ 32, "846F766E-19B1-40AD-A190-A23BC7ABE77D", 32, 1422955558, "390584", 1422955558, "390584", "{\n}", "Chinatown/International District Business Improvement District", [ "http://www.cidbia.org/", null ], "Chinatown International District", "Downtown", "business improvement association", "community", "website", "W", "2", "don@cidbia.org", null ]
+, [ 33, "9925823B-B27A-4558-AB62-DB2FE1C77BC8", 33, 1422955558, "390584", 1422955558, "390584", "{\n}", "Chinese Information and Service Center", [ "http://www.cisc-seattle.org/", null ], "Chinatown International District", "Downtown", "referral, advocacy, support services", "nonprofit", "website", "W", "2", "kevinc@cisc-seattle.org", null ]
+, [ 34, "FDC0CC2A-8D09-46F7-B17E-4AC42ADEB8EC", 34, 1422955558, "390584", 1422955558, "390584", "{\n}", "CHS Capitol Hill Seattle Blog", [ "http://www.capitolhillseattle.com/", null ], "Capitol Hill", "East", "news, events, food, drink, criminal activity", "commercial", "blog", "E", "3", null, null ]
+, [ 35, "FFB2BA7F-A055-49F3-98C3-0139A2A190B7", 35, 1422955558, "390584", 1422955558, "390584", "{\n  \"invalidCells\" : {\n    \"24411000\" : \"@nextdoor.com\"\n  }\n}", "Colman Neighborhood Association", [ "http://colman.nextdoor.com", null ], "Colman", "Central", "crime, neighborhood-issues, neighborhood-planning", "community", "website", "E", "3", null, null ]
+, [ 36, "17BB43E2-C88E-4F8F-A36A-614FCB93A618", 36, 1422955558, "390584", 1422955558, "390584", "{\n}", "Columbia Citizens", [ "http://twitter.com/CCitizens", null ], "Columbia City", "Southeast", "twitter for Columbia Citizens", "community", "twitter", "SE", "2", null, null ]
+, [ 37, "81513A0E-DE14-43FA-98B2-DCF5EFF74498", 37, 1422955558, "390584", 1422955558, "390584", "{\n}", "Columbia City Business Association", [ "http://www.columbiacityseattle.com/", null ], "Columbia City", "Southeast", "business association", "community", "website", "SE", "2", null, null ]
+, [ 38, "7D27EC37-A9AA-469A-A340-1B69EF2A9E17", 38, 1422955558, "390584", 1422955558, "390584", "{\n}", "Columbia City Facebook", [ "https://www.facebook.com/groups/columbiacity/10152338758236510/?notif_t=group_activity", null ], "Columbia City", "Southeast", "events, neighborhood-issues, news", "community", "facebook page", "SE", "2", null, null ]
+, [ 39, "A4E6B20C-A346-4DCE-A255-0510B3AD20A3", 39, 1422955558, "390584", 1422955558, "390584", "{\n}", "Columbia City Source", [ "http://columbiacitysource.com/", null ], "Columbia City", "Southeast", "news, events, food, shopping", "community", "website", "SE", "2", null, null ]
+, [ 40, "1B59FE6D-0A82-4E61-AFF3-26BB80946216", 40, 1422955558, "390584", 1422955558, "390584", "{\n}", "Columbia City: Rainier Valley", [ "http://www.rainiervalley.org/", null ], "Columbia City", "Southeast", "portal", "community", "website", "SE", "2", "david.keyes@seattle.gov", null ]
+, [ 41, "9E644AB3-42E2-4142-98B5-9B8431108C85", 41, 1422955558, "390584", 1422955558, "390584", "{\n}", "Crown Hill Business Association", [ "http://crownhillbusiness.org", null ], "Ballard", "Ballard", "business association", "community", "website", "NW", "6", null, null ]
+, [ 42, "8B92DFA1-9411-4DE7-A61D-8EBA30AB0CF8", 42, 1422955558, "390584", 1422955558, "390584", "{\n}", "Crown Hill Neighbors", [ "http://www.crownhillneighbors.org", null ], "Crown Hill", "Ballard", "neighborhood-issues, neighborhood-planning, news", "community", "website", "NW", "6", null, null ]
+, [ 43, "2F4315FC-DC70-48E0-9345-DD75876C427E", 43, 1422955558, "390584", 1422955558, "390584", "{\n}", "Delridge Neighborhoods Development Association", [ "http://www.dnda.org/", null ], "Delridge", "Delridge", "neighborhood association", "community", "website", "SW", "1", null, null ]
+, [ 44, "73550761-7D0D-4AE5-9339-5C253412EEF1", 44, 1422955558, "390584", 1422955558, "390584", "{\n}", "Delridge Produce Cooperative", [ "http://sites.google.com/site/delridgeproducecooperative/", null ], "Delridge", "Delridge", "produce coop", "community", "website", "SW", "1", "delridgeproducecooperative@google.com", null ]
+, [ 45, "CDA3C0D1-43FA-43DE-83C1-1D210EE5AD9D", 45, 1422955558, "390584", 1422955558, "390584", "{\n}", "Discover SLU", [ "http://www.facebook.com/discoverslu", null ], "South Lake Union", "Lake Union", "news, events, shopping, dining", "commercial", "facebook page", "W", "7", null, null ]
+, [ 46, "706B46BC-86D2-4A79-A101-F4D804BD92DC", 46, 1422955558, "390584", 1422955558, "390584", "{\n}", "Discover SLU", [ "http://www.twitter.com/southlakeunion", null ], "South Lake Union", "Lake Union", "news, events, shopping, dining", "commercial", "twitter", "W", "7", null, null ]
+, [ 47, "BDC3A56E-2FF2-473D-BC97-348297C4D0A1", 47, 1422955558, "390584", 1422955558, "390584", "{\n}", "Discover SLU", [ "http://www.discoverslu.com", null ], "South Lake Union", "Lake Union", "news, events, shopping, dining", "commercial", "website", "W", "7", null, null ]
+, [ 48, "3CD88DFA-77ED-4010-9F6B-C01F9088EF81", 48, 1422955558, "390584", 1422955558, "390584", "{\n}", "Downtown Seattle Association", [ "http://www.downtownseattle.com/", null ], "Downtown", "Downtown", "business association", "community", "website", "W", "7", null, null ]
+, [ 49, "8F325083-8AEA-4FED-A802-17BD6A129BC5", 49, 1422955558, "390584", 1422955558, "390584", "{\n}", "Downtown Seattle Families", [ "https://www.facebook.com/DowntownSeattleFamilies", null ], "Downtown", "Downtown", "neighborhood-issues", "community", "facebook page", "W", "7", null, null ]
+, [ 50, "A2819FA7-154D-49E7-8034-4E1717A72834", 50, 1422955558, "390584", 1422955558, "390584", "{\n}", "Duwamish River Cleaunup Coation", [ "http://duwamishcleanup.org/", null ], "Duwamish", "Greater Duwamish", "environmental conservation", "community", "website", "SE", "2", null, null ]
+, [ 51, "2CE3E72C-6C44-4D51-98A9-6AE5F082C8A5", 51, 1422955558, "390584", 1422955558, "390584", "{\n}", "East Ballard Community Association Blog", [ "http://eastballard.wordpress.com/", null ], "Ballard", "Ballard", "community association, news, events, meeting", "community", "blog", "NW", "6", null, null ]
+, [ 52, "5B0BFE1E-785E-4A84-B896-451931B70211", 52, 1422955558, "390584", 1422955558, "390584", "{\n}", "Eastlake Ave. ", [ "http://twitter.com/eastlakeave", null ], "Eastlake", "Lake Union", "updates on blog posts", "commercial", "blog", "W", "4", null, null ]
+, [ 53, "D5B1E22F-93B0-4993-91B3-7D5C6E17B173", 53, 1422955558, "390584", 1422955558, "390584", "{\n}", "Eastlake Ave. ", [ "http://eastlakeave.neighborlogs.com/", null ], "Eastlake", "Lake Union", "news, traffic, events, criminal activity", "commercial", "blog", "W", "4", null, null ]
+, [ 54, "2139D347-D935-42F1-9FD0-DBCC08FA58B0", 54, 1422955558, "390584", 1422955558, "390584", "{\n}", "Eastlake Community Council", [ "http://www.eastlakeseattle.org/", null ], "Eastlake", "Lake Union", "community council", "community", "website", "W", "4", null, null ]
+, [ 55, "93271F33-1647-485C-8666-7228BEFEDA83", 55, 1422955558, "390584", 1422955558, "390584", "{\n}", "Eastlake Community Council", [ "http://www.facebook.com/group.php?gid=7145111961", null ], "Eastlake", "Lake Union", "community council", "community", "facebook page", "W", "4", null, null ]
+, [ 56, "1D581A34-CE95-4ADC-98FF-817C0E0C5F67", 56, 1422955558, "390584", 1422955558, "390584", "{\n}", "Ethiopian Community Mutual Association", [ "http://ecseattle.org/", null ], "Rainier Valley", "Southeast", "ethnic/cultural-interest, events, neighborhood-issues", "community", "website", "SE", "2", null, null ]
+, [ 57, "850C2189-25D4-4A28-9980-9FAD038B853E", 57, 1422955558, "390584", 1422955558, "390584", "{\n}", "Families for Lake City", [ "http://www.familiesforlakecity.org", null ], "Lake City", "Northeast", "crime, events, neighborhood-issues, neighborhood-planning, news", "community", "website", "NE", "5", null, null ]
+, [ 58, "9E86AACC-8F92-4263-91B2-85A360231121", 58, 1422955558, "390584", 1422955558, "390584", "{\n  \"invalidCells\" : {\n    \"24411000\" : \"fauntleroy-community-association@facebook.com/pages\"\n  }\n}", "Fauntleroy Community Association", [ "http://www.facebook.com/pages/Seattle-WA/Fauntleroy-Community-Association/63181596775?v=wall&viewas=1779772562&ref=ts", null ], "Fauntleroy", "Southwest", "community assocation", "community", "facebook page", "SW", "1", null, null ]
+, [ 59, "2F911C63-A4F8-4FC7-933C-47CB7B51135F", 59, 1422955558, "390584", 1422955558, "390584", "{\n}", "Fauntleroy Community Association", [ "http://fauntleroy.net/", null ], "Fauntleroy", "Southwest", "community association", "community", "website", "SW", "1", null, null ]
+, [ 60, "F67EC417-F19B-4B3B-8475-DD740EE45986", 60, 1422955558, "390584", 1422955558, "390584", "{\n}", "Filipino Community of Seattle", [ "http://filipinocommunityofseattle.org/", null ], "Rainier Valley", "Southeast", "ethnic/cultural-interest, events, neighborhood-issues", "community", "website", "SE", "2", null, null ]
+, [ 61, "597BC7DF-D100-4EA7-827D-159D1E348F83", 61, 1422955558, "390584", 1422955558, "390584", "{\n}", "First Hill Improvement Association", [ "http://www.firsthill.org/", null ], "First Hill", "East", "neighborhood association", "community", "website", "E", "3", null, null ]
+, [ 62, "10CE7540-DA8F-456A-A677-26EDB2023C95", 62, 1422955558, "390584", 1422955558, "390584", "{\n}", "Fremont Arts Council", [ "http://www.fremontartscouncil.org/", null ], "Fremont", "Lake Union", "communtiy group", "community", "website", "NW", "6", null, null ]
+, [ 63, "52614123-606F-42AF-A4E3-95221AB1D985", 63, 1422955558, "390584", 1422955558, "390584", "{\n}", "Fremont Arts Council", [ "http://groups.yahoo.com/group/fremontartscouncil/", null ], "Fremont", "Lake Union", "fremont arts council members", "community", "email list", "NW", "6", "fremontartscouncil@yahoo.com", null ]
+, [ 64, "0ECA7375-6BFB-43BB-97C1-49EB75CA35B1", 64, 1422955558, "390584", 1422955558, "390584", "{\n}", "Fremont Chamber of Commerce", [ "http://www.fremontseattle.com/", null ], "Fremont", "Lake Union", "chamber of commerce", "community", "website", "NW", "6", null, null ]
+, [ 65, "47FD0154-D9EF-4631-A425-FF53F916F5FB", 65, 1422955558, "390584", 1422955558, "390584", "{\n}", "Fremont Neighborhood Coucil", [ "http://www.fremontneighborhoodcouncil.org", null ], "Frmont", "Lake Union", "neighborhood council", "community", "website", "NW", "6", null, null ]
+, [ 66, "3749D5A7-2EA8-47CF-BA28-B10C5DC7125D", 66, 1422955558, "390584", 1422955558, "390584", "{\n}", "Fremont Universe", [ "http://twitter.com/fremontuniverse", null ], "Fremont", "Lake Union", "news, events, food, reviews", "commercial", "twitter", "NW", "6", null, null ]
+, [ 67, "8EB335AF-DF31-4A74-8222-12856A9F0AC7", 67, 1422955558, "390584", 1422955558, "390584", "{\n}", "Fremont Universe", [ "http://www.facebook.com/pages/Fremont-Universe-Seattle/88279594341?ref=s", null ], "Fremont", "Lake Union", "news, events, food, reviews", "commercial", "facebook page", "NW", "6", "fremont-universe-seattle@facebook.com", null ]
+, [ 68, "58AB1056-DC5F-4243-B122-0047B23AFD50", 68, 1422955558, "390584", 1422955558, "390584", "{\n}", "Fremont Universe", [ "http://www.fremontuniverse.com/", null ], "Fremont", "Lake Union", "news, events, food, reviews", "commercial", "blog", "NW", "6", null, null ]
+, [ 69, "F178338E-C77F-47EC-93DF-902FB58E0FD3", 69, 1422955558, "390584", 1422955558, "390584", "{\n}", "Friends of Discovery Park", [ "http://www.friendsdiscoverypark.org/", null ], "Magnolia", "Magnolia/Queen Anne", "park issues", "community", "website", "W", "7", null, null ]
+, [ 70, "58CC4AC8-2DD2-4AC2-9B1F-D213A3F2E059", 70, 1422955558, "390584", 1422955558, "390584", "{\n}", "Friends of Fremont Peak Park", [ "http://www.fremontpeakpark.org/", null ], "Fremont", "Lake Union", "park issues", "community", "website", "NW", "6", null, null ]
+, [ 71, "7552190A-44FB-4FDB-A0FE-B8990261E68C", 71, 1422955558, "390584", 1422955558, "390584", "{\n}", "Friends of Frink Park", [ "http://www.frinkpark.org/", null ], "Central District", "Central", "park issues", "community", "website", "E", "3", null, null ]
+, [ 72, "897CC5B2-A529-4633-9CC8-932109BA425E", 72, 1422955558, "390584", 1422955558, "390584", "{\n}", "Friends of Green Lake", [ "http://www.friendsofgreenlake.org/", null ], "Green Lake", "Northwest", "park issues", "community", "website", "NW", "6", null, null ]
+, [ 73, "263677D9-7D8C-4CB2-968B-4C795BE2662B", 73, 1422955558, "390584", 1422955558, "390584", "{\n}", "Friends of Lewis Park", [ "http://www.lewispark.org/", null ], "Lewis Park", "Greater Duwamish", "park issues", "community", "website", "SE", "3", null, null ]
+, [ 74, "0C2E6B12-2900-47B6-A559-6D72BAC93922", 74, 1422955558, "390584", 1422955558, "390584", "{\n}", "Friends of Seward Park", [ "http://www.sewardpark.org/", null ], "Seward Park", "Southeast", "park issues", "community", "website", "SE", "2", null, null ]
+, [ 75, "4CBF8F45-86FB-4079-8050-73C7B9F8D8EC", 75, 1422955558, "390584", 1422955558, "390584", "{\n}", "Genesee-Schmitz Neighborhood Council", [ "http://genesee-schmitz.org/", null ], "Genesee-Schmitz", "Southwest", "neighborhood council", "community", "blog", "SW", "1", null, null ]
+, [ 76, "1361D983-BB22-4E39-9570-F13557683D2F", 76, 1422955558, "390584", 1422955558, "390584", "{\n}", "Georgetown Merchants Association", [ "http://www.georgetownmerchants.org/index.html", null ], "Georgetown", "Greater Duwamish", "events", "community", "website", "SW", "2", null, null ]
+, [ 77, "BBADACFB-2CDE-4BFB-B0E2-4BB08F862CCA", 77, 1422955558, "390584", 1422955558, "390584", "{\n}", "Georgetown Neighborhood", [ "http://www.georgetownneighborhood.com/", null ], "Georgetown", "Greater Duwamish", "community council", "community", "website", "SW", "2", null, null ]
+, [ 78, "23B4A451-9B83-46C2-A0AD-5AB847F42BF3", 78, 1422955558, "390584", 1422955558, "390584", "{\n}", "Georgetown Seattle", [ "http://groups.yahoo.com/group/Georgetown-Seattle/", null ], "Georgetown", "Greater Duwamish", "community members", "community", "email list", "SW", "2", "georgetown-seattle@yahoo.com", null ]
+, [ 79, "E831802A-9725-457C-A3A1-7DAF04F0EE28", 79, 1422955558, "390584", 1422955558, "390584", "{\n}", "Go Local West Woodland", [ "https://www.facebook.com/golocalwestwoodland", null ], "West Woodland", "Northwest", "events, neighborhood-issues, news", "community", "facebook page", "NW", "4", "westwoodlandneighbors@gmail.com", null ]
+, [ 80, "C9B23A24-C69B-4DCA-9BA7-EEFA2280E11E", 80, 1422955558, "390584", 1422955558, "390584", "{\n}", "Greenlake Community Council", [ "http://www.greenlakecommunitycouncil.org/", null ], "Green Lake", "Northwest", "community council", "community", "website", "NW", "6", null, null ]
+, [ 81, "D87362E3-3FD2-4AD9-BA33-3392E24A228D", 81, 1422955558, "390584", 1422955558, "390584", "{\n}", "Greenlake Community Wiki", [ "http://greenlake.wetpaint.com/", null ], "Green Lake", "Northwest", "events, for sale, services", "community", "wiki", "NW", "6", null, null ]
+, [ 82, "0E0F1969-9CD5-4981-B6F0-7C058560216A", 82, 1422955558, "390584", 1422955558, "390584", "{\n}", "Green Lake Seattle", [ "http://greenlakeinseattle.com/", null ], "Green Lake", "Northwest", "dining, events, news", "community", "website", "NW", "6", null, null ]
+, [ 83, "DF628360-87EA-4282-BA69-F0796A14E25E", 83, 1422955558, "390584", 1422955558, "390584", "{\n}", "Greenwood Aurora Involved Neighbors", [ "http://www.gainseattle.com/", null ], "Greenwood", "Northwest", "neighborhood association", "community", "website", "NW", "5", null, null ]
+, [ 84, "81FF72A1-AE67-496D-981A-AD2872327C20", 84, 1422955558, "390584", 1422955558, "390584", "{\n}", "Greenwood Blog", [ "http://www.greenwoodblog.com/", null ], "Greenwood", "Northwest", "news, events", "commercial", "blog", "NW", "5", null, null ]
+, [ 85, "EA79B9BC-D837-4E3D-BBAC-CE43B35F0A1A", 85, 1422955558, "390584", 1422955558, "390584", "{\n}", "Greenwood Community Council", [ "http://www.greenwoodcommunitycouncil.org/about/", null ], "Greenwood", "Northwest", "community council", "community", "website", "NW", "5", "about@greenwoodcommunitycouncil.org", null ]
+, [ 86, "DDB4674F-10DA-41C4-838E-FB511EBC032A", 86, 1422955558, "390584", 1422955558, "390584", "{\n}", "Greenwood Community Council Announcements", [ "http://groups.yahoo.com/group/Greenwood_News/", null ], "Greenwood", "Northwest", "community council", "community", "email list", "NW", "5", "greenwood_news@yahoo.com", null ]
+, [ 87, "87543E69-2A54-4A03-B286-5F85FC2CBE21", 87, 1422955558, "390584", 1422955558, "390584", "{\n}", "Greenwood Community Council Discussion", [ "http://groups.yahoo.com/group/greenwood-discussion/", null ], "Greenwood", "Northwest", "community council", "community", "email list", "NW", "5", "greenwood-discussion@yahoo.com", null ]
+, [ 88, "5DD1C455-1060-43DE-AB69-0982D2B610FA", 88, 1422955558, "390584", 1422955558, "390584", "{\n}", "Greenwood Phinney Chamber of Commerce", [ "http://www.greenwood-phinney.com/", null ], "Greenwood", "Northwest", "chamber of commerce", "community", "website", "NW", "5", null, null ]
+, [ 89, "0218FD85-F7EA-4C29-BD75-A478A6302B7F", 89, 1422955558, "390584", 1422955558, "390584", "{\n}", "Groundswell Northwest", [ "http://www.groundswellnw.org", null ], "Ballard", "Ballard", "parks, habitat", "community", "website", "NW", "6", null, null ]
+, [ 90, "9AC3A27B-B9DE-4F6F-833F-8F175D25B275", 90, 1422955558, "390584", 1422955558, "390584", "{\n}", "Haller Lake Community Club", [ "http://www.hallerlake.info/", null ], "Haller Lake", "North", "community organization", "community", "website", "N", "5", null, null ]
+, [ 91, "61CDA018-6DD2-444E-B6E8-174B2006C265", 91, 1422955558, "390584", 1422955558, "390584", "{\n}", "Hawthorne Hills Community Website", [ "http://www.seattle.gov/hawthornehills/", null ], "Hawthorne Hills", "Northeast", "community council", "community", "website", "NE", "5", "hawthornehills@seattle.gov", null ]
+, [ 92, "78DF287A-5C50-4D75-889F-DDA0F15773EB", 92, 1422955558, "390584", 1422955558, "390584", "{\n}", "Helping Link", [ "http://www.helpinglink.org/", null ], "Chinatown International District", "Downtown", "ethnic/cultural-interest, seniors, youth", "community", "website", "W ", "2", null, null ]
+, [ 93, "F5A2498B-95A7-46B6-B18E-27D89BE1607E", 93, 1422955558, "390584", 1422955558, "390584", "{\n}", "Highland Park Action Committee", [ "http://www.highlandpk.net/", null ], "Highland Park", "Delridge", "community group", "community", "website", "SW", "1", null, null ]
+, [ 94, "4801F957-1B49-42A2-930A-AF91894F5672", 94, 1422955558, "390584", 1422955558, "390584", "{\n}", "Highland Park Improvement Club", [ "http://www.hpic1919.org/", null ], "Highland Park", "Delridge", "neighborhood group", "community", "blog", "SW", "1", null, null ]
+, [ 95, "EC9BD85E-AEFC-424D-8239-45905C1A26DE", 95, 1422955558, "390584", 1422955558, "390584", "{\n  \"invalidCells\" : {\n    \"24411000\" : \"hillmancitybusinessassociation@facebook.com/#!\"\n  }\n}", "Hillman City Business Association Facebook", [ "https://www.facebook.com/#!/groups/HillmanCityBusinessAssociation/", null ], "Hillman City", "Southeast", "business association", "community", "facebook page", "SE", "2", null, null ]
+, [ 96, "0B31429F-F65A-4BE5-84AA-0CB4CFEA9133", 96, 1422955558, "390584", 1422955558, "390584", "{\n}", "Hillman City-Brighton Park", [ "https://www.facebook.com/groups/213325722058561/", null ], "Hillman City", "Southeast", "ethnic/cultural-interest, events, neighborhood-issues", "community", "web", "SE", "2", null, null ]
+, [ 97, "B45A4641-BA07-42FC-A166-3BBBF2753BEF", 97, 1422955558, "390584", 1422955558, "390584", "{\n}", "Jackson Commons", [ "http://www.jacksoncommons.com", null ], "Central District", "Central", "events, neighborhood-issues, neighborhood-planning", "community", "website", "E", "3", null, null ]
+, [ 98, "3090DC11-4F39-4DAA-9F79-56989D5F03A2", 98, 1422955558, "390584", 1422955558, "390584", "{\n}", "Junction Neighborhood Organization", [ "http://www.wsjuno.com/", null ], "Junction", "Southwest", "events, meetings", "community", "blog", "W", "1", null, null ]
+, [ 99, "556AE897-9025-412E-B636-F89008C71BAB", 99, 1422955558, "390584", 1422955558, "390584", "{\n}", "Lake City Live", [ "http://lakecitylive.net", null ], "Lake City", "Northeast", "events, neighborhood-issues, neighborhood-planning, news", "community", "website", "NE", "5", null, null ]
+, [ 100, "DE8EF581-FACA-49CF-82E8-B42994C31F71", 100, 1422955558, "390584", 1422955558, "390584", "{\n}", "Lake City Live", [ "https://www.facebook.com/LakeCityLive", null ], "Lake City", "Northeast", "news, neighborhood-issues,events, neighborhood-planning", "community", "facebook page", "NE", "5", null, null ]
+, [ 101, "2916FC1D-5E3E-46E3-A9D1-0D5A69476663", 101, 1422955558, "390584", 1422955558, "390584", "{\n}", "Lake City Live", [ "https://twitter.com/lakecitylive", null ], "Lake City", "Northeast", "news, neighborhood-issues, events, neighborhood-planning", "community", "twitter", "NE", "5", null, null ]
+, [ 102, "DBE2B395-A657-4145-A16D-966424B12FC2", 102, 1422955558, "390584", 1422955558, "390584", "{\n}", "Lake City Neighborhood Alliance", [ "http://lcna-seattle.org", null ], "Lake City", "Northeast", "events, neighborhood-issues, neighborhood-planning, news", "community", "website", "NE", "5", null, null ]
+, [ 103, "E5E9490D-F16D-4F47-8853-A5584815087D", 103, 1422955558, "390584", 1422955558, "390584", "{\n}", "Lake Union Seattle", [ "http://lakeunioninseattle.com/", null ], "Lake Union", "Lake Union", "dining, events, news, shopping", "community", "website", "W", "7", null, null ]
+, [ 104, "FA7C30EC-3E25-4EF3-BBED-3368EB53FF19", 104, 1422955558, "390584", 1422955558, "390584", "{\n}", "Lakewood/Seward Park Community Club", [ "http://www.lspcc.org", null ], "Lakewood/Seward Park", "Southeast", "neighborhood-issues ", "community", "website", "SE", "2", null, null ]
+, [ 105, "2963B41B-0BA9-46BA-AE25-E3B666483899", 105, 1422955558, "390584", 1422955558, "390584", "{\n}", "Laurelhurst Community Club", [ "http://www.laurelhurstcc.com/", null ], "Laurelhurst", "Northeast", "community club", "community", "website", "NE", "4", null, null ]
+, [ 106, "21799E60-953F-4F05-B793-2FA0818C72CE", 106, 1422955558, "390584", 1422955558, "390584", "{\n}", "Leschi Community Council", [ "http://groups.google.com/group/LeschiCC?hl=en", null ], "Leschi", "Central", "planning, meeting times", "community", "email list", "E", "3", null, null ]
+, [ 107, "A3710F51-AD82-4C3A-A534-07207E3D7EEE", 107, 1422955558, "390584", 1422955558, "390584", "{\n}", "Licton Springs Neighborhood ", [ "http://www.lictonsprings.org/", null ], "Licton Springs", "Northwest", "neighborhood council", "community", "website", "NW", "6", null, null ]
+, [ 108, "56A81FB8-1188-4227-8933-9476B0A65EA5", 108, 1422955558, "390584", 1422955558, "390584", "{\n}", "Livable Ballard", [ "http://livableballard.org", null ], "Ballard", "Ballard", "neighborhood advocacy", "community", "website", "NW", "6", null, null ]
+, [ 109, "041C09D2-CB3B-4053-A57D-B10A8A353F57", 109, 1422955558, "390584", 1422955558, "390584", "{\n}", "Lockmore Neighborhood", [ "http://www.lockmore.org/blog/", null ], "Lockmore", "Greater Duwamish", "neighborhood association", "community", "webstie", "SE", "2", "blog@lockmore.org", null ]
+, [ 110, "CF5AAB18-FA11-4899-BC8A-F6DFD89B2170", 110, 1422955558, "390584", 1422955558, "390584", "{\n}", "Longfellow Creek Community Website", [ "http://www.longfellowcreek.org/", null ], "Delridge", "Delridge", "watershed info", "community", "website", "SW", "1", null, null ]
+, [ 111, "F208EE77-A7CE-4775-80A8-08A08A00F693", 111, 1422955558, "390584", 1422955558, "390584", "{\n}", "Madison Park Blogger", [ "http://madisonparkblogger.blogspot.com/", null ], "Madison Park", "East", "news, housing prices, events", "commercial", "blog", "E", "3", null, null ]
+, [ 112, "18182229-6124-46BF-9213-8CEE4A7C79A9", 112, 1422955558, "390584", 1422955558, "390584", "{\n}", "Madison Park Business Association", [ "http://www.madisonparkseattle.com/", null ], "Madison Park", "East", "business association", "community", "website", "E", "3", null, null ]
+, [ 113, "BEF7F43B-F47D-46DB-AC0A-D9574D14CD8C", 113, 1422955558, "390584", 1422955558, "390584", "{\n}", "Madison Park Seattle", [ "http://madisonparkinseattle.com/", null ], "Madison Park", "East", "dining, events, news", "community", "website", "E", "3", null, null ]
+, [ 114, "AF06523C-ABB5-4F21-B3A8-F3F2C611EE46", 114, 1422955558, "390584", 1422955558, "390584", "{\n}", "Madrona Moms", [ "http://health.groups.yahoo.com/group/MadronaMoms/", null ], "Madrona", "Central", "community group (moms)", "community", "email list", "E", "3", "madronamoms@groups.yahoo.com", null ]
+, [ 115, "B480221D-6A24-4CB2-BEDF-C9AE6CCE5480", 115, 1422955558, "390584", 1422955558, "390584", "{\n}", "Madrona Neighborhood", [ "http://madrona.wetpaint.com/", null ], "Madrona", "Central", "neighborhood community site: buying/selling, restaurants, favorite places, etc.  Also community association meeting minutes", "community", "wiki", "E", "3", null, null ]
+, [ 116, "D24A7D2B-6AF2-41B5-B7F4-576448B9A2B0", 116, 1422955558, "390584", 1422955558, "390584", "{\n}", "Magnolia Chamber of Commerce", [ "http://www.magnoliachamber.org/", null ], "Magnolia", "Magnolia/Queen Anne", "chamber of commerce", "community", "website", "W", "7", null, null ]
+, [ 117, "D4F1D18A-5C8A-4CAA-80A6-6A4B3CB4228C", 117, 1422955558, "390584", 1422955558, "390584", "{\n}", "Magnolia Historical Society", [ "http://www.magnoliahistoricalsociety.org/", null ], "Magnolia", "Magnolia/Queen Anne", "historical society", "community", "website", "W", "7", null, null ]
+, [ 118, "1727B104-009C-48EE-B79D-BD7D01DDB3AF", 118, 1422955558, "390584", 1422955558, "390584", "{\n}", "Magnolia-Queen Anne District Council (Facebook)", [ "http://www.facebook.com/MQADC", null ], "Magnolia Queen Anne", "Magnolia/Queen Anne", "neighborhood issues, news", "community", "facebook page", "W", "7", null, null ]
+, [ 119, "CF9FEBB2-A187-4D65-AB7C-7C66C62BF715", 119, 1422955558, "390584", 1422955558, "390584", "{\n}", "Magnolia-Queen Anne District Council (Twitter)", [ "http://www.twitter.com/MQADC", null ], "Magnolia Queen Anne", "Magnolia/Queen Anne", "neighborhood issues, news", "community", "twitter", "W", "7", null, null ]
+, [ 120, "88D75348-7CBD-4A48-8685-8114C24128F9", 120, 1422955558, "390584", 1422955558, "390584", "{\n}", "Magnolia Voice", [ "http://www.facebook.com/pages/Magnolia-Voice-Seattle/116057104388", null ], "Magnolia", "Magnolia/Queen Anne", "news, events, criminal activity, food", "commercial", "facebook page", "NW", "7", "magnolia-voice-seattle@facebook.com", null ]
+, [ 121, "97369778-6105-40B2-B757-DBBD786AB34B", 121, 1422955558, "390584", 1422955558, "390584", "{\n}", "Magnolia Voice", [ "http://twitter.com/magnoliavoice", null ], "Magnolia", "Magnolia/Queen Anne", "news, events, criminal activity, food", "commercial", "twitter", "NW", "7", null, null ]
+, [ 122, "D127DFDF-0E7D-4CFC-BEE8-C1A662E1158F", 122, 1422955558, "390584", 1422955558, "390584", "{\n}", "Magnolia Voice", [ "http://www.magnoliavoice.com/", null ], "Magnolia", "Magnolia/Queen Anne", "news, events, criminal activity, food", "commercial", "blog", "W", "7", null, null ]
+, [ 123, "181227E7-8FF5-42CD-826F-D74B338FDBAE", 123, 1422955558, "390584", 1422955558, "390584", "{\n}", "Magnuson Community Garden", [ "http://cityofseattle.net/MAGNUSONGARDEN", null ], "Laurelhurst", "Northeast", "garden", "community", "website", "NE", "4", null, null ]
+, [ 124, "6D56ABA0-BD83-4CD5-95D6-DB904F2CDC64", 124, 1422955558, "390584", 1422955558, "390584", "{\n}", "Magnuson Environmental Stewardship Alliance", [ "http://mesaseattle.org/", null ], "Laurelhurst", "Northeast", "park issues", "community", "website", "NE", "4", null, null ]
+, [ 125, "713DF6AC-4159-4451-9440-470A745D5042", 125, 1422955558, "390584", 1422955558, "390584", "{\n}", "Manufacturing Industrial Council", [ "http://seattleindustry.org/", null ], "Brighton", "Greater Duwamish", "trades council", "community", "website", "SE", "2", null, null ]
+, [ 126, "BC17BFE2-49B3-4915-AD35-879AD46D88F9", 126, 1422955558, "390584", 1422955558, "390584", "{\n}", "Maple Leaf Community Council", [ "http://www.mapleleafcommunity.org/", null ], "Maple Leaf", "Northeast", "community council, email list available", "community", "website", "NE", "5", null, null ]
+, [ 127, "438A4588-1141-430F-AF0D-01C1FDEF5BF8", 127, 1422955558, "390584", 1422955558, "390584", "{\n}", "Maple Leaf Life", [ "http://twitter.com/mapleleaflife", null ], "Maple Leaf", "North", "news, events, human interest, criminal activity, shopping", "commercial", "twitter", "N ", "5", null, null ]
+, [ 128, "3DDB5C90-A8FB-464D-998C-DEDE3D74C621", 128, 1422955558, "390584", 1422955558, "390584", "{\n}", "Maple Leaf Life", [ "http://www.mapleleaflife.com/", null ], "Maple Leaf", "North", "news, events, human interest, criminal activity, shopping", "commercial", "blog", "N", "5", null, null ]
+, [ 129, "13C19A52-AF5B-4799-9479-60B0C73DD2F8", 129, 1422955558, "390584", 1422955558, "390584", "{\n}", "Maple Leaf Life", [ "http://www.facebook.com/pages/Seattle-WA/Maple-Leaf-Life/298056021657", null ], "Maple Leaf", "North", "news, events, human interest, criminal activity, shopping", "commercial", "facebook page", "N", "5", null, null ]
+, [ 130, "187A6F59-0C82-45D8-95A1-35640F33E43C", 130, 1422955558, "390584", 1422955558, "390584", "{\n}", "Marra Farm", [ "http://www.solid-ground.org/Programs/Nutrition/Marra/Pages/default.aspx", null ], "South Park", "Greater Duwamish", "environmental conservation", "community", "website", "SE", "2", null, null ]
+, [ 131, "60A85A06-CE59-4502-88A3-0DD94628E9C6", 131, 1422955558, "390584", 1422955558, "390584", "{\n}", "Meadowbrook Community Council", [ "http://www.meadowbrookcouncil.com/", null ], "Meadowbrook", "Northeast", "neighborhood-issues", "community", "website", "NE", "5", null, null ]
+, [ 132, "7D84C428-1789-4E27-9BD0-68BA38DE4135", 132, 1422955558, "390584", 1422955558, "390584", "{\n}", "Miller Park Neighborhood Association", [ "http://millerparkseattle.blogspot.com/", null ], "Miller Park", "East", "neighborhood association; news, events", "community", "blog", "E", "3", null, null ]
+, [ 133, "B165CCB8-D221-4C4F-ADDE-58FD8420FC50", 133, 1422955558, "390584", 1422955558, "390584", "{\n}", "MLK Business Association", [ "http://www.mlkba.org/", null ], "Rainier Valley", "Southeast", "business association", "community", "website", "SE", "2", null, null ]
+, [ 134, "BC080CA8-B715-47CD-8B2C-11D4AED99391", 134, 1422955558, "390584", 1422955558, "390584", "{\n}", "MLK Business Association Facebook", [ "https://www.facebook.com/MLKintheValley", null ], "Rainier Valley", "Southeast", "business association", "community", "facebook page", "SE", "2", null, null ]
+, [ 135, "48851523-05CD-4CA1-8CE5-257C33412D27", 135, 1422955558, "390584", 1422955558, "390584", "{\n}", "MLK FAME Community Center", [ "http://www.mlkfame.com/", null ], "Madison Park", "East", "community group", "community", "website", "E", "2", null, null ]
+, [ 136, "E4017F29-685B-45DB-8475-5335E03EFB96", 136, 1422955558, "390584", 1422955558, "390584", "{\n}", "Morgan Junction Community Association", [ "http://morganjunction.org/", null ], "Morgan Junction", "Southwest", "community association", "community", "website", "SW", "1", null, null ]
+, [ 137, "3742C9FD-3D3E-41A2-B820-F211789B187F", 137, 1422955558, "390584", 1422955558, "390584", "{\n}", "Mount Baker Community Club", [ "http://www.mountbaker.org/", null ], "Mount Baker", "Southeast", "community club", "community", "website", "SE", "2", null, null ]
+, [ 138, "5DB9D22F-E8E7-425E-911D-EF5354535CDF", 138, 1422955558, "390584", 1422955558, "390584", "{\n}", "MyBallard", [ "http://www.myballard.com/", null ], "Ballard", "Ballard", "news, events, human interest, criminal activity, shopping", "commercial", "blog", "NW", "6", null, null ]
+, [ 139, "A3FA1586-9E17-49C2-ACD3-D29B3FED37C1", 139, 1422955558, "390584", 1422955558, "390584", "{\n}", "My Greenlake Blog", [ "http://www.mygreenlake.com/", null ], "Green Lake", "Northwest", "news, events, food", "commercial", "blog", "NW", "6", null, null ]
+, [ 140, "D3783FC5-06A7-473F-B695-3E5918D390ED", 140, 1422955558, "390584", 1422955558, "390584", "{\n}", "MyWallingford", [ "http://www.facebook.com/MyWallingford?ref=ts", null ], "Wallingford", "Northwest", "news, events, human interest, criminal activity, shopping", "commercial", "facebook page", "NW", "4", null, null ]
+, [ 141, "3ABFE472-10C9-4779-9D0E-4D55FF13256C", 141, 1422955558, "390584", 1422955558, "390584", "{\n}", "MyWallingford", [ "http://twitter.com/mywallingford", null ], "Wallingford", "Northwest", "news, events, human interest, criminal activity, shopping", "commercial", "twitter", "NW", "4", null, null ]
+, [ 142, "43E33FDA-2BC0-423E-9916-8CA980476919", 142, 1422955558, "390584", 1422955558, "390584", "{\n}", "MyWallingford", [ "http://mywallingford.com", null ], "Wallingford", "Northwest", "news, events, human interest, criminal activity, shopping", "commercial", "blog", "NW", "4", null, null ]
+, [ 143, "7727DFED-A488-44B4-9D46-00777C399059", 143, 1422955558, "390584", 1422955558, "390584", "{\n}", "Nature Consortium", [ "http://www.naturec.org", null ], "Delridge", "Delridge", "environmental conservation", "community", "website", "SW", "1", null, null ]
+, [ 144, "57BC0B38-04B9-410A-A6C2-4CD91FE4EC20", 144, 1422955558, "390584", 1422955558, "390584", "{\n}", "New Holly Neighborhood Campus", [ "http://www.newholly.org/", null ], "Rainier Valley", "Southeast", "services portal", "community", "website", "SE", "2", null, null ]
+, [ 145, "483C9D9B-CACF-4226-B399-7E7D9D63798D", 145, 1422955558, "390584", 1422955558, "390584", "{\n}", "New Rainier Vista", [ "http://newrainiervista.com/public/about/", null ], "Rainier Beach", "Southeast", "news, events, human interest, criminal activity, shopping", "community", "blog", "SE", "2", null, null ]
+, [ 146, "C478A867-1A31-4B29-AF21-37A473C01D62", 146, 1422955558, "390584", 1422955558, "390584", "{\n}", "North Beacon Hill Council", [ "http://www.northbeaconhillcouncil.org/", null ], "North Beacon Hill", "Greater Duwamish", "neighborhood council", "community", "website", "SE", "2", null, null ]
+, [ 147, "23AA3485-A5ED-468F-90E7-43994EFBADA9", 147, 1422955558, "390584", 1422955558, "390584", "{\n}", "North Beacon Hill Council Facebook Page", [ "https://www.facebook.com/NorthBeaconHillCouncil", null ], "North Beacon Hill", "Greater Duwamish", "neighborhood council", "community", "facebook page", "SE", "2", null, null ]
+, [ 148, "33C20184-854D-4159-B297-A2DEEAB9E8E4", 148, 1422955558, "390584", 1422955558, "390584", "{\n}", "North Capitol Hill Neighborhood Association", [ "http://www.nchna.com/", null ], "Capitol Hill", "East", "meeting notes, relevant news", "community", "website", "E", "3", null, null ]
+, [ 149, "52670EF0-7D1A-41A4-B3AB-861F8BC93D9B", 149, 1422955558, "390584", 1422955558, "390584", "{\n}", "North Delridge Neighborhood Council", [ "http://ndnc.org/", null ], "Delridge", "Delridge", "events calendar", "community", "website", "SW", "7", null, null ]
+, [ 150, "69D4880A-DBC3-480B-B91E-00F513083F71", 150, 1422955558, "390584", 1422955558, "390584", "{\n}", "Northeast Seattle", [ "http://www.northeastseattle.org/", null ], "Northeast Seattle", "Northeast", "news", "community", "website", "NE", "5", null, null ]
+, [ 151, "F3983603-D069-47A1-B1DB-2546CCFBECFA", 151, 1422955558, "390584", 1422955558, "390584", "{\n}", "Northgate Chamber of Commerce", [ "http://www.northgatechamber.com/", null ], "Northgate", "North", "chamber of commerce", "community", "website", "NE", "5", null, null ]
+, [ 152, "71CC74FF-4DD2-4F30-A8FC-0180D4BDF934", 152, 1422955558, "390584", 1422955558, "390584", "{\n}", "Northwest District Council", [ "http://www.nwdistrictcouncil.org/", null ], "Northwest", "Northwest", "district council", "community", "website", "NW", "4", null, null ]
+, [ 153, "093D3343-2D25-406D-8534-1E5082F2E4DD", 153, 1422955558, "390584", 1422955558, "390584", "{\n}", "Othello Neighborhood Association", [ "http://othello.talkspot.com/", null ], "Othello", "Southeast", "neighborhood association", "community", "website", "SE", "2", null, null ]
+, [ 154, "9BDF3F27-6188-4297-B093-BE77F4FDD7EC", 154, 1422955558, "390584", 1422955558, "390584", "{\n}", "Othello Park Alliance", [ "http://othellopark.org/", null ], "Othello", "Southeast", "park issues", "community", "website", "SE", "2", null, null ]
+, [ 155, "84900FFF-1B11-4A69-904F-F9E13BC4A344", 155, 1422955558, "390584", 1422955558, "390584", "{\n}", "Othello Station Area Action Team (OSCAT)", [ "https://www.facebook.com/OSCAT", null ], "Othello", "Southeast", "neighborhood-issues, neighborhood-planning", "community", "facebook page", "SE", "2", null, null ]
+, [ 156, "4D4BA529-7B7B-4EE3-88C5-B8A4B8C0E935", 156, 1422955558, "390584", 1422955558, "390584", "{\n}", "Phinney Neighborhood Association", [ "http://www.phinneycenter.org/", null ], "Phinney Ridge", "Northwest", "neighborhood association", "community", "website", "NW", "6", null, null ]
+, [ 157, "58F89A21-5154-497C-8D72-16C4C376AA10", 157, 1422955558, "390584", 1422955558, "390584", "{\n}", "Phinney Neighborhood Association", [ "http://phinneycenter.blogspot.com/", null ], "Phinney Ridge", "Northwest", "association news and events", "community", "blog", "NW", "6", null, null ]
+, [ 158, "29751355-F44C-4FF9-8349-24E4759402F7", 158, 1422955558, "390584", 1422955558, "390584", "{\n}", "Phinney Neighborhood Association", [ "http://www.facebook.com/group.php?gid=42314991794", null ], "Phinney Ridge", "Northwest", "neighborhood association", "community", "facebook page", "NW", "6", null, null ]
+, [ 159, "1C205ED2-8ABD-40FF-BC1A-A7C975B21A75", 159, 1422955558, "390584", 1422955558, "390584", "{\n}", "Phinney Ridge Commuity Council", [ "http://www.phinneyridgecc.org/", null ], "Phinney Ridge", "Northwest", "neighborhood council, neighborhood-issues, neighborhood-planning", "community", "website", "NW", "6", null, null ]
+, [ 160, "FCF2A49D-EE13-4224-94D8-4D265BD20F66", 160, 1422955558, "390584", 1422955558, "390584", "{\n}", "PhinneyWood", [ "http://www.phinneywood.com/", null ], "Phinney Ridge", "Northwest", "news, events, food, shopping", "commercial", "blog", "NW", "6", null, null ]
+, [ 161, "C624692E-BECA-4E84-837C-B3E9C83CAC51", 161, 1422955558, "390584", 1422955558, "390584", "{\n}", "Pinehurst Seattle", [ "http://www.facebook.com/#!/group.php?gid=53590206898&v=wall&ref=search", null ], "Pinehurst", "North", "news, events, issues", "community", "facebook page", "NE", "5", null, null ]
+, [ 162, "72021A6A-CB74-4533-8462-1BF77120B8ED", 162, 1422955558, "390584", 1422955558, "390584", "{\n}", "Pinehurst Seattle", [ "http://pinehurstseattle.org", null ], "Pinehurst", "North", "news, events, issues", "community", "blog", "NE", "5", null, null ]
+, [ 163, "C5AC3B50-8BBB-4D9E-A59B-A8FCC5145F57", 163, 1422955558, "390584", 1422955558, "390584", "{\n}", "Pinehurst Seattle", [ "http://twitter.com/pinehurstsea", null ], "Pinehurst", "North", "news, events, issues", "community", "twitter", "NE", "5", null, null ]
+, [ 164, "63882271-E85B-4411-9BED-085706F4AB8A", 164, 1422955558, "390584", 1422955558, "390584", "{\n}", "Pioneer Square Community Association", [ "http://www.pioneersquare.org/", null ], "Pioneer Square", "Downtown", "community organization", "community", "website", "W", "7", null, null ]
+, [ 165, "14C6F8FA-1E46-4DC3-A346-4A2B1B16DA4E", 165, 1422955558, "390584", 1422955558, "390584", "{\n}", "Queen Anne Chamber of Commerce", [ "http://queenannechamber.org", null ], "Queen Anne", "Magnolia/Queen Anne", "chamber of commerce", "community", "website", "W", "7", null, null ]
+, [ 166, "84BB9D37-C628-4C3A-97CF-54278749D69B", 166, 1422955558, "390584", 1422955558, "390584", "{\n}", "Queen Anne Community Council", [ "http://www.qacc.net/", null ], "Queen Anne", "Magnolia/Queen Anne", "community council", "community", "website", "W", "7", null, null ]
+, [ 167, "51042BDB-A8C8-4A9C-AA12-5115F1E36E49", 167, 1422955558, "390584", 1422955558, "390584", "{\n}", "Queen Anne Helpline", [ "http://queenannehelpline.org/index.php", null ], "Queen Anne", "Magnolia/Queen Anne", "nonprofit", "community", "website", "W", "7", null, null ]
+, [ 168, "BE37F35C-2AA4-43B5-B4DB-1A31F9E1E343", 168, 1422955558, "390584", 1422955558, "390584", "{\n}", "Queen Anne Historical Society", [ "http://www.qahistory.org/", null ], "Queen Anne", "Magnolia/Queen Anne", "historical society", "community", "website", "W", "7", null, null ]
+, [ 169, "66AEF901-54CC-4A2C-856F-F7157FE4F61D", 169, 1422955558, "390584", 1422955558, "390584", "{\n}", "Queen Anne Seattle", [ "http://seattlequeenanne.com/", null ], "Queen Anne", "Magnolia/Queen Anne", "news, events, social", "community", "website", "W", "7", null, null ]
+, [ 170, "D9177DEE-4D3A-40DF-B4CA-B8B730F09B70", 170, 1422955558, "390584", 1422955558, "390584", "{\n}", "Queen Anne View", [ "http://www.queenanneview.com/", null ], "Queen Anne", "Magnolia/Queen Anne", "news, events, reviews", "commercial", "blog", "W", "7", null, null ]
+, [ 171, "06E7D2C7-1DBD-4389-9086-3567DD4E9ED0", 171, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rainier Beach Community Club", [ "http://rainierbeachcommunityclub.org/", null ], "Rainier Beach", "Southeast", "neighborhood-issues, neighborhood-planning", "community", "website", "SE", "2", null, null ]
+, [ 172, "CE5E0BA6-2038-4433-A642-BBA1659F33B6", 172, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rainier Beach Community Club Facebook", [ "https://www.facebook.com/#!/pages/Rainier-Beach-Community-Club/289334751077907", null ], "Rainier Beach", "Southeast", "neighborhood-issues, neighborhood-planning", "community", "facebook page", "SE", "2", null, null ]
+, [ 173, "ED5C1F41-F69D-4A58-9E5C-4B0A7C4F3D8F", 173, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rainier Beach Community Empowerment Coalition", [ "http://twitter.com/rainierbeach", null ], "Rainier Beach", "Southeast", "news, events, issues", "community", "twitter", "SE", "2", null, null ]
+, [ 174, "6C85F87B-B2F5-46E8-93D3-B5B69E54F69D", 174, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rainier Beach Community Empowerment Coalition", [ "http://www.rbcoalition.org/", null ], "Rainier Beach", "Southeast", "news, events, issues", "community", "blog", "SE", "2", null, null ]
+, [ 175, "EF022DFB-C4C3-41F2-897D-85E9DA06495C", 175, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rainier Beach Emergency Hub", [ "http://www.rainierbeachready.com/", null ], "Rainier Beach", "Southeast", "emergency preparedness", "community", "website", "SE", "2", null, null ]
+, [ 176, "E15A33FF-C590-46AC-B6E4-2FD2A3D2A54D", 176, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rainier Beach Merchants Association", [ "https://www.facebook.com/#!/RBMerchAssoc", null ], "Rainier Beach", "Southeast", "business association", "community", "facebook page", "SE", "2", null, null ]
+, [ 177, "42C2160C-F752-422A-B3FE-1E6C0D7DB481", 177, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rainier Beach Moving Forward", [ "http://www.rbcoalition.org", null ], "Rainier Beach", "Southeast", "neighborhood-issues, neighborhood-planning", "community", "website", "SE", "2", null, null ]
+, [ 178, "290E690C-285A-4F34-BFCD-4FDC2ADF7064", 178, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rainier Chamber of Commerce", [ "http://www.rainierchamber.com", null ], "Rainier Valley", "Southeast", "business association", "community", "website", "SE", "2", null, null ]
+, [ 179, "6D979901-FA18-4089-A162-93D93DD21F45", 179, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rainier Valley Greenways", [ "http://www.gorvgreenways.com/", null ], "Rainier Valley", "Southeast", "transportation", "community", "website", "SE", "2", null, null ]
+, [ 180, "A5EFB607-F16F-44F0-A7E4-0C07995A9924", 180, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rainier Valley Historical Society", [ "http://www.rainiervalleyhistory.org/", null ], "Rainier Valley", "Southeast", "historical society", "community", "website", "SE", "2", null, null ]
+, [ 181, "37DF8E34-8232-47C9-9112-50338E6F8AB8", 181, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rainier Valley Post", [ "http://www.rainiervalleypost.com/", null ], "Rainier Valley", "Southeast", "news, events, 911 blotter, food, reviews", "commercial", "blog", "SE", "2", null, null ]
+, [ 182, "A3FD4A84-55B4-4D57-98C2-01F19BBD7899", 182, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rainier Valley Rotary Club", [ "http://www.rainiervalleyrotary.org", null ], "Rainier Valley", "Southeast", "education", "community", "website", "SE", "2", null, null ]
+, [ 183, "FB479C46-9C16-4F25-B0A0-27AE3363C253", 183, 1422955558, "390584", 1422955558, "390584", "{\n}", "Ravenna Blog", [ "http://twitter.com/ravennablog", null ], "Ravenna", "Northeast", "news, events, human interest, criminal activity, food, shopping", "community", "twitter", "NE", "4", null, null ]
+, [ 184, "5422AFEB-0E1F-48D5-9279-0A9CDD943824", 184, 1422955558, "390584", 1422955558, "390584", "{\n}", "Ravenna Blog", [ "http://www.facebook.com/pages/Ravenna-Blog/116280421718247", null ], "Ravenna", "Northeast", "news, events, human interest, criminal activity, food, shopping", "community", "facebook page", "NE", "4", null, null ]
+, [ 185, "77F6B275-0C16-4C19-A408-CAD19EF2E4A7", 185, 1422955558, "390584", 1422955558, "390584", "{\n}", "Ravenna Blog", [ "http://www.ravennablog.com/", null ], "Ravenna", "Northeast", "news, events, human interest, criminal activity, food, shopping", "community", "blog", "NE", "4", null, null ]
+, [ 186, "5AFE70D3-558A-4546-B697-6A453E3F06FA", 186, 1422955558, "390584", 1422955558, "390584", "{\n}", "Ravenna-Bryant Community Association", [ "http://www.facebook.com/pages/Ravenna-Bryant-Community-Association/153638664651035", null ], "Ravenna", "Northeast", "community association", "community", "facebook page", "NE", "4", null, null ]
+, [ 187, "81F1B0E1-A819-4275-91D6-B90485E71801", 187, 1422955558, "390584", 1422955558, "390584", "{\n}", "Ravenna-Bryant Community Association", [ "http://www.ravennabryant.org/", null ], "Ravenna", "Northeast", "community association", "community ", "website", "NE", "4", null, null ]
+, [ 188, "9860BEF0-43A0-468E-BD4B-7014750CF19B", 188, 1422955558, "390584", 1422955558, "390584", "{\n}", "Roosevelt Neighborhood Association", [ "http://rooseveltseattle.org/default.aspx", null ], "Roosevelt", "Northeast", "neighborhood association", "community", "website", "NE", "4", null, null ]
+, [ 189, "FC50C560-0021-4364-8EDB-3A71702DCF5D", 189, 1422955558, "390584", 1422955558, "390584", "{\n}", "Roosevelt Neighborhood Association", [ "http://www.facebook.com/group.php?gid=178766520060", null ], "Roosevelt", "Northeast", "neighborhood association", "community", "facebook page", "NE", "4", null, null ]
+, [ 190, "85DF3CE7-7DCC-46E0-9E58-C0927F6FAC48", 190, 1422955558, "390584", 1422955558, "390584", "{\n}", "Roosevelt Neighbors' Alliance", [ "http://www.rooseveltneighborsalliance.org/main/Roosevelt_Neighbors_Alliance.html", null ], "Roosevelt", "Northeast", "neighborhood association", "community", "website", "NE", "4", null, null ]
+, [ 191, "E7AEE2E3-166C-40E4-99B5-84F06144D9D9", 191, 1422955558, "390584", 1422955558, "390584", "{\n}", "Roosevelt Seattle", [ "http://twitter.com/roosieseattle", null ], "Roosevelt", "Northeast", "news, events", "community", "twitter", "NE", "4", null, null ]
+, [ 192, "8275215B-A418-40CE-A806-F6C45105F990", 192, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rosiehood", [ "http://www.roosiehood.com/", null ], "Roosevelt", "Northeast", "news, events, human interest, criminal activity", "community", "blog", "NE", "4", null, null ]
+, [ 193, "9F98A8B2-E47E-4186-B857-B186080DA4B9", 193, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rosiehood", [ "http://www.facebook.com/pages/Roosevelt-Neighborhood-Blog/133948283288085", null ], "Roosevelt", "Northeast", "news, events, human interest, criminal activity", "community", "facebook page", "NE", "4", null, null ]
+, [ 194, "A2895584-85EC-4A26-A057-C038D863B11C", 194, 1422955558, "390584", 1422955558, "390584", "{\n}", "Rosiehood", [ "http://twitter.com/Roosiehood", null ], "Roosevelt", "Northeast", "news, events, human interest, criminal activity", "community", "twitter", "NE", "4", null, null ]
+, [ 195, "3C70BD08-2D84-46D0-8C91-CAABAA1FB6C5", 195, 1422955558, "390584", 1422955558, "390584", "{\n}", "Seattle Chinatown International District PDA", [ "http://www.scidpda.org/", null ], "Chinatown International District", "Downtown", "public development authority", "community", "website", "W", "2", null, null ]
+, [ 196, "FF5C5514-DCA7-42E0-844E-AADAB577F51B", 196, 1422955558, "390584", 1422955558, "390584", "{\n}", "SE Seattle Tool Library", [ "http://www.setools.org/", null ], "Rainier Valley", "Southeast", null, "community", "website", "SE", "2", null, null ]
+, [ 197, "C1466B29-A78C-4868-8D52-AC891ED2CF5D", 197, 1422955558, "390584", 1422955558, "390584", "{\n}", "SE Seattle Tool Library Facebook", [ "https://www.facebook.com/#!/groups/678481055547657/", null ], "Rainier Valley", "Southeast", null, "community", "facebook page", "SE", "2", null, null ]
+, [ 198, "AD879DC7-4527-4C51-8BD0-FB08606C3B21", 198, 1422955558, "390584", 1422955558, "390584", "{\n}", "Seattle Central Community College", [ "http://seattlecentral.edu/", null ], "Capitol Hill", "East", "college", null, "website", "E", "3", null, null ]
+, [ 199, "46AEBD42-8261-4F4D-A325-BA612702FEB2", 199, 1422955558, "390584", 1422955558, "390584", "{\n}", "Seattle Chinatown Guide", [ "http://www.chinatownconnection.com/seattle-chinatown-international-district.htm", null ], "Chinatown International District", "Downtown", "food, shopping", "commercial", "website", "W", "2", null, null ]
+, [ 200, "EB452845-A0B9-4CE0-BC26-DA8627BB5B44", 200, 1422955558, "390584", 1422955558, "390584", "{\n}", "Seattle Industry", [ "http://www.seattleindustry.org/", null ], "Industrial District", "Greater Duwamish", "seattle industry", "community", "website", "S", "2", null, null ]
+, [ 201, "1C5DCECC-E508-45FE-9007-2E2E7AA000C7", 201, 1422955558, "390584", 1422955558, "390584", "{\n}", "Seattle's Othello Neighborhood", [ "http://othelloneighborhood.org/default.aspx", null ], "Othello", "Southeast", "shared community group website", "community", "website", "SE", "2", null, null ]
+, [ 202, "CFF40EE9-7975-4FC8-876F-A2867B96CC8D", 202, 1422955558, "390584", 1422955558, "390584", "{\n}", "Senior Center West Seattle", [ "http://www.sc-ws.org/", null ], "West Seattle", "Southwest", "senior center", "community", "website", "SW", "1", null, null ]
+, [ 203, "7052DD1F-70AD-46C7-BEB5-9C95FBFB2B91", 203, 1422955558, "390584", 1422955558, "390584", "{\n}", "Shilshole Blog", [ "http://shilsholecommunity.org/", null ], "Ballard", "Ballard", "news, weather, events, criminal activity", "commercial", "blog", "NW", "6", null, null ]
+, [ 204, "98ED9AB9-6194-4D24-B958-7B1D20B9172F", 204, 1422955558, "390584", 1422955558, "390584", "{\n}", "S Lake Union Friends and Neighbors Community Council", [ "http://www.slufan.org/", null ], "South Lake Union", "Lake Union", "community council", "community", "website", "W", "7", null, null ]
+, [ 205, "7B2A4A56-E3EF-457F-A3E9-5F0F06779053", 205, 1422955558, "390584", 1422955558, "390584", "{\n}", "SoDo Business Association", [ "http://www.sodobusinessassociation.org/", null ], "Industrial District", "Greater Duwamish", "business association", "community", "website", "S", "2", null, null ]
+, [ 206, "0A944E9A-10A6-445D-9715-31B79392015E", 206, 1422955558, "390584", 1422955558, "390584", "{\n}", "Solid Ground Facebook", [ "http://www.facebook.com/pages/Solid-Ground/20665239656", null ], "Wallingford", "Northwest", "nonprofit", "community", "facebook page", "NW", "4", null, null ]
+, [ 207, "A7D85162-45A6-4D47-8714-C2C5B3151872", 207, 1422955558, "390584", 1422955558, "390584", "{\n}", "Solid Ground", [ "http://www.solid-ground.org/Pages/Default.aspx", null ], "Wallingford", "Northwest", "nonprofit", "community", "website", "NW", "4", null, null ]
+, [ 208, "7E5225EE-296F-4A78-A938-0C3FD7A59529", 208, 1422955558, "390584", 1422955558, "390584", "{\n}", "South Communities Organizing for Racial/Regional Equity (SouthCORE)", [ "http://www.pugetsoundsage.org/section.php?id=76", null ], "Rainier Valley", "Southeast", "neighborhood-issues, neighborhood-planning", "community", "website", "SE", "2", null, null ]
+, [ 209, "0B52D1AC-7B30-42DA-86A1-DB04988BBDA3", 209, 1422955558, "390584", 1422955558, "390584", "{\n}", "South Lake Union Chamber of Commerce", [ "http://www.sluchamber.org/", null ], "South Lake Union", "Lake Union", "chamber of commerce", "community", "website", "W", "7", null, null ]
+, [ 210, "ADF75476-F742-49FD-97B0-7571F1A940A7", 210, 1422955558, "390584", 1422955558, "390584", "{\n}", "South Seattle Crime Prevention Council (SSCPC)", [ "http://southcpc.org/", null ], "Rainier Valley", "Southeast", "crime ", "community", "website", "SE", "2", null, null ]
+, [ 211, "E433BCC0-6EEF-4E3E-96C8-EE46CDCE5DB6", 211, 1422955558, "390584", 1422955558, "390584", "{\n}", "South Seattle Emerald", [ "http://southseattleemerald.com/", null ], "Rainier Valley", "Southeast", "news, neighborhood-issues, neighborhood-planning", "community", "blog", "SE", "2", null, null ]
+, [ 212, "4C3AEF3B-EDFA-4209-BB3C-394976F61419", 212, 1422955558, "390584", 1422955558, "390584", "{\n}", "Southeast District Council", [ "http://www.southeastseattle.org", null ], "Rainier Valley, Columbia City, Hillman City, Othello, Rainier Beach, Mount Baker", "Southeast", "district council", "community", "blog", "SE", "2", null, null ]
+, [ 213, "202692F5-5A4B-4B7A-AE11-56F944003AF6", 213, 1422955558, "390584", 1422955558, "390584", "{\n}", "Southeast Seattle Education Coalition", [ "http://allfivesinfive.org/", null ], "Rainier Valley", "Southeast", "education", "community", "website", "SE", "2", null, null ]
+, [ 214, "0C39544F-D711-41AF-A100-215CC3188B07", 214, 1422955558, "390584", 1422955558, "390584", "{\n}", "Southeast Seattle Senior Center", [ "http://sessc.org/", null ], "Brighton", "Southeast", null, "community", "website", "SE", "2", null, null ]
+, [ 215, "5565EF93-0FBE-4228-9CA2-6C15A2848E52", 215, 1422955558, "390584", 1422955558, "390584", "{\n}", "Sustainable Greenwood/Phinney", [ "http://web.me.com/annecann1/iWeb/Site/Home.html", null ], "Phinney Ridge", "Northwest", "susainability", "community", "website", "NW", "6", null, null ]
+, [ 216, "1F4F09F0-2231-4AFA-ABB3-84BEC18BDE88", 216, 1422955558, "390584", 1422955558, "390584", "{\n}", "Sustainable Northeast Seattle", [ "http://sustainableneseattle.ning.com/", null ], "Wedgwood, Laurelhurst, Ravenna, Roosevelt", "Northeast", "community group", "community", "ning", "NE", "4", null, null ]
+, [ 217, "30F2C195-0DF2-4F29-B384-C123CE870D53", 217, 1422955558, "390584", 1422955558, "390584", "{\n}", "Sustainable West Seattle", [ "http://www.sustainablewestseattle.org/", null ], "West Seattle", "Southwest, Delridge", "events, issues, food, neighborhood planning", "community", "blog", "SW", "1", null, null ]
+, [ 218, "6C992B55-09E2-438B-95EA-2B768ABC71D4", 218, 1422955558, "390584", 1422955558, "390584", "{\n}", "The Junction: Downtown West Seattle", [ "http://www.wsjunction.com/", null ], "Junction", "Southwest", "neighborhood association", "community", "website", "W", "1", null, null ]
+, [ 219, "654A5A5A-57CD-4D8D-9A3E-E862C8A4D260", 219, 1422955558, "390584", 1422955558, "390584", "{\n}", "The Laurelhurst Blog", [ "http://thelaurelhurstblog.blogspot.com/", null ], "Laurelhurst", "Northeast", "news, events", "community", "blog", "NE", "5", null, null ]
+, [ 220, "E915DD7D-C2D1-4AEE-A5FD-4C56625F0733", 220, 1422955558, "390584", 1422955558, "390584", "{\n}", "The Maple Leafer", [ "http://www.facebook.com/pages/The-Maple-Leafer/110782042284727", null ], "Maple Leaf", "North", "news, events, human interest, criminal activity, shopping", "commercial", "facebook page", "N", "5", null, null ]
+, [ 221, "5771E8D2-AB65-4EE6-A67E-98C2B4E248BB", 221, 1422955558, "390584", 1422955558, "390584", "{\n}", "The Maple Leafer", [ "http://www.themapleleafer.com/", null ], "Maple Leaf", "North", "news, events, human interest, criminal activity, shopping", "commercial", "blog", "N", "5", null, null ]
+, [ 222, "00D06FFB-7166-4F9B-8A89-7056D78B0CB5", 222, 1422955558, "390584", 1422955558, "390584", "{\n}", "The Maple Leafer", [ "http://twitter.com/themapleleafer", null ], "Maple Leaf", "North", "news, events, human interest, criminal activity, shopping", "commercial", "twitter", "N", "5", null, null ]
+, [ 223, "A9CD15F1-CFCD-4641-804E-F4B92D81A3DB", 223, 1422955558, "390584", 1422955558, "390584", "{\n}", "The South Lake Union Community Blog", [ "http://www.thesouthlake.com/", null ], "South Lake Union", "Lake Union", "news, events, personalized profile pages", "commercial", "blog", "W", "7", null, null ]
+, [ 224, "18C728F1-7D0D-4ADF-BD4B-FE5B909469A2", 224, 1422955558, "390584", 1422955558, "390584", "{\n}", "Thornton Creek Alliance", [ "http://www.scn.org/tca/", null ], "Thornton Creek", "Northeast", "community group", "community", "website", "NE", "4", null, null ]
+, [ 225, "2E8C72B6-EE4A-463C-8A45-457CC658051B", 225, 1422955558, "390584", 1422955558, "390584", "{\n}", "U District Daily", [ "http://www.udistrictdaily.com/", null ], "University District", "Northeast", "news, events, human interest, criminal activity, shopping", "commercial", "blog", "NE", "4", null, null ]
+, [ 226, "5CFD0BAC-AC2A-4A90-892F-016AF1A731BF", 226, 1422955558, "390584", 1422955558, "390584", "{\n}", "University District Business Improvement Area", [ "http://www.udistrictchamber.org/UDBIA/index.html", null ], "University District", "Northeast", "business association", "community", "website", "NE", "4", "udbia@udistrictchamber.org", null ]
+, [ 227, "A8E589EB-BD6B-4FFD-BE0E-F7DDA10457C3", 227, 1422955558, "390584", 1422955558, "390584", "{\n  \"invalidCells\" : {\n    \"24411000\" : \"university-district-food-bank@facebook.com/pages\"\n  }\n}", "University District Food Bank", [ "http://www.facebook.com/pages/Seattle-WA/University-District-Food-Bank/47523824407", null ], "University District", "Northeast", "food bank", "community", "facebook page", "NE", "4", null, null ]
+, [ 228, "324DECBF-4188-4394-A8A4-D0DB77914AC7", 228, 1422955558, "390584", 1422955558, "390584", "{\n}", "University District Food Bank", [ "http://www.udistrictfoodbank.org/", null ], "University District", "Northeast", "food bank", "community", "website", "NE", "4", null, null ]
+, [ 229, "0FCBBB9C-5839-4A80-A57A-4FC8ADB90C1B", 229, 1422955558, "390584", 1422955558, "390584", "{\n}", "University District Seattle", [ "http://www.udistrictchamber.org/GUCC/GUCC.html", null ], "University District", "Northeast", "chamber of commerce", "community", "website", "NE", "4", "gucc@udistrictchamber.org", null ]
+, [ 230, "9F663860-6D11-4398-9F8F-678F90734E95", 230, 1422955558, "390584", 1422955558, "390584", "{\n}", "University District Service Fund", [ "http://udistrictpartnership.org/u-district-fund-bia/", null ], "University District", "Northeast", "nonprofit", "community", "website", "NE", "4", "udistrictservicefund@udistrictchamber.org", null ]
+, [ 231, "EA96C037-F8C1-4F62-855B-3FF76082B36A", 231, 1422955558, "390584", 1422955558, "390584", "{\n}", "Uptown Alliance", [ "https://www.facebook.com/SeattleUptownAlliance", null ], "Uptown", "Magnolia/Queen Anne", "news, events", "community", "facebook page", "W", "7", null, null ]
+, [ 232, "B4ABAE89-7416-46FC-8D1D-5A039EA8917D", 232, 1422955558, "390584", 1422955558, "390584", "{\n}", "Vintage West Woodland", [ "https://www.facebook.com/vintagewestwoodland", null ], "West Woodland", "Northwest", "events, news, seniors", "community", "facebook page", "NW", "4", "westwoodlandneighbors@gmail.com", null ]
+, [ 233, "D691083B-9A13-4839-B31E-3ABD6B87BB7A", 233, 1422955558, "390584", 1422955558, "390584", "{\n}", "Vision Greenwood Park Seattle", [ "http://www.facebook.com/pages/Vision-Greenwood-Park-Seattle/165995713450762", null ], "Greenwood", "Northwest", "park issues, events, neighborhood-issues, neighborhood-planning", "community", "facebook page", "NW", "5", null, null ]
+, [ 234, "674A3FA9-AB22-430D-AA96-B32DB2EC9179", 234, 1422955558, "390584", 1422955558, "390584", "{\n}", "Wallingford Chamber of Commerce", [ "http://wallingfordchamber.org/", null ], "Wallingford", "Northwest", "chamber of commerce", "community", "website", "NW", "4", "info@wallingfordchamber.org", null ]
+, [ 235, "A6995ACD-4B58-4EAE-9EA7-A039A954B278", 235, 1422955558, "390584", 1422955558, "390584", "{\n  \"invalidCells\" : {\n    \"1301779\" : \"http://wallingfordccorg\"\n  }\n}", "Wallingford Community Council", [ null, null ], "Wallingford", "Northwest", "community council", "community", "website", "NW", "4", "pres@wallingfordcc.org", null ]
+, [ 236, "E727CF76-C9E5-46D7-806E-9EBE104DF7F0", 236, 1422955558, "390584", 1422955558, "390584", "{\n}", "Wallingford.org", [ "http://www.wallingford.org/", null ], "Wallingford", "Northwest", "neighborhood group", "community", "website", "NW", "4", null, null ]
+, [ 237, "DA6F94A8-1675-4773-A6A3-F5C36F30FE90", 237, 1422955558, "390584", 1422955558, "390584", "{\n}", "Wallingford Seattle Blog", [ "http://twitter.com/wallingford", null ], "Wallingford", "Northwest", "news, events, advice", "community", "twitter", "NW", "4", null, null ]
+, [ 238, "CB92C881-2E45-4F3A-B69E-ACE3F5F26D84", 238, 1422955558, "390584", 1422955558, "390584", "{\n}", "Wallingford Seattle Blog", [ "http://wallingfordseattle.tumblr.com/", null ], "Wallingford", "Northwest", "news, events, advice", "community", "blog", "NW", "4", null, null ]
+, [ 239, "AB5CE2B9-0A36-4847-AB8A-11B231C7D5DC", 239, 1422955558, "390584", 1422955558, "390584", "{\n}", "Wallyhood - Wallingford Seattle Blog", [ "http://twitter.com/wallyhood", null ], "Wallingford", "Northwest", "news, events", "commercial", "twitter", "NW ", "4", null, null ]
+, [ 240, "403AE62F-E266-49D3-A121-3D07A136F40B", 240, 1422955558, "390584", 1422955558, "390584", "{\n}", "Wallyhood - Wallingford Seattle Blog", [ "http://www.wallyhood.org/", null ], "Wallingford", "Northwest", "news, events", "commercial", "blog", "NW", "4", "blog@wallyhood.org", null ]
+, [ 241, "1A45CBC2-4D7C-4EF3-B484-848A1A415A53", 241, 1422955558, "390584", 1422955558, "390584", "{\n}", "Wedgwood Block Watch", [ "http://www.wedgwoodcc.org/wwbw/", null ], "Wedgwood", "Northeast", "block watch", "community", "website", "NE", "4", "blockwatch@wedgwoodcc.org", null ]
+, [ 242, "5CEFE5BD-3BBC-4ACD-A807-14C011F67849", 242, 1422955558, "390584", 1422955558, "390584", "{\n}", "Wedgwood Community Council", [ "http://www.facebook.com/pages/Wedgwood-Community-Council/146730522040662", null ], "Wedgwood", "Northeast", "community council", "community", "facebook page", "NE", "4", null, null ]
+, [ 243, "7591B0F4-A37B-4F0F-93EB-AE546E4A1A5D", 243, 1422955558, "390584", 1422955558, "390584", "{\n}", "Wedgwood Community Council", [ "http://www.wedgwoodcc.org/", null ], "Wedgwood", "Northeast", "community council", "community", "website", "NE", "4", "wcc@wedgwoodcc.org", null ]
+, [ 244, "163CBBD4-18E9-4EE9-90D7-F4A3A2B9B0CE", 244, 1422955558, "390584", 1422955558, "390584", "{\n}", "Wedgwood View", [ "http://twitter.com/wedgwoodview", null ], "Wedgwood", "Northeast", "news, events, human interest, criminal activity, shopping", "commercial", "twitter", "NE", "4", null, null ]
+, [ 245, "535F4805-C430-40D5-B954-451D4C1E9A5C", 245, 1422955558, "390584", 1422955558, "390584", "{\n}", "Wedgwood View", [ "http://www.wedgwoodview.com/", null ], "Wedgwood", "Northeast", "news, events, human interest, criminal activity, shopping", "commercial", "blog", "NE", "4", "tips@wedgwoodview.com", null ]
+, [ 246, "92BF2D47-071D-4BF6-B3DF-BC2E3F1F9B38", 246, 1422955558, "390584", 1422955558, "390584", "{\n}", "Wedgwood View", [ "http://www.facebook.com/pages/Wedgwood-View/331236446338", null ], "Wedgwood", "Northeast", "news, events, human interest, criminal activity, shopping", "commercial", "facebook page", "NE", "4", null, null ]
+, [ 247, "EFDD2EB2-E072-4333-AC64-92493F172AA3", 247, 1422955558, "390584", 1422955558, "390584", "{\n}", "West Seattle Blog", [ "http://twitter.com/westseattleblog", null ], "West Seattle", "Southwest, Delridge", "news, events, human interest", "commercial", "twitter", "SW", "1", null, null ]
+, [ 248, "02B6CB56-6A4E-43F6-A32B-509EDCDC11A5", 248, 1422955558, "390584", 1422955558, "390584", "{\n}", "West Seattle Blog", [ "http://www.facebook.com/westseattleblog", null ], "West Seattle", "Southwest, Delridge", "profile page for West Seattle Blog", "commercial", "facebook page", "SW", "1", null, null ]
+, [ 249, "3551CCA9-8D19-4009-9E93-35286F8E5138", 249, 1422955558, "390584", 1422955558, "390584", "{\n}", "West Seattle Blog", [ "http://westseattleblog.com/", null ], "West Seattle", "Southwest, Delridge", "news, events, human interest", "commercial", "blog", "SW", "1", "editor@westseattleblog.com", null ]
+, [ 250, "CD6595F3-15B4-43D2-A917-DE8F2B41D7C7", 250, 1422955558, "390584", 1422955558, "390584", "{\n}", "West Seattle Chamber of Commerce", [ "http://www.wschamber.com/", null ], "West Seattle", "Southwest", "chamber of commerce", "community", "website", "SW", "1", "info@wschamber.com", null ]
+, [ 251, "47D4BB85-4B44-4ECA-BB2E-5585D9418E8A", 251, 1422955558, "390584", 1422955558, "390584", "{\n}", "West Seattle Herald", [ "http://www.westseattleherald.com/", null ], "West Seattle", "Southwest, Delridge", "online newspaper", "commercial", "website", "SW", "1", "patr@robinsonnews.com", null ]
+, [ 252, "0822D531-3B02-4DEC-ABC5-23A5AB17025A", 252, 1422955558, "390584", 1422955558, "390584", "{\n}", "West Seattle Herald", [ "http://twitter.com/westseattleher", null ], "West Seattle", "Southwest, Delridge", "online newspaper", "commercial", "twitter", "SW", "1", null, null ]
+, [ 253, "2836A29E-2244-4317-AA4F-36EC4DAB6FE8", 253, 1422955558, "390584", 1422955558, "390584", "{\n}", "West Seattle Herald", [ "http://www.facebook.com/wsherald", null ], "West Seattle", "Southwest, Delridge", "online newspaper", "commercial", "facebook page", "SW", "1", null, null ]
+, [ 254, "98D79E5F-4FB2-456C-9F45-48EB68E9E2DD", 254, 1422955558, "390584", 1422955558, "390584", "{\n}", "West Seattle Transportation Coalition", [ "http://www.westseattletc.org", null ], "West Seattle", "Southwest, Delridge", "transportation", "community", "website", "SW", "1", "info@westseattletc.org", null ]
+, [ 256, "38AADB59-B392-4C61-9390-F4818572CE85", 256, 1422955558, "390584", 1422955558, "390584", "{\n}", "Westwood Roxhill Arbor Heights Community Council", [ "http://wwrhah.wordpress.com/", null ], "Westwood, Roxhill, Arbor Heights", "Delridge", "neighborhood-issues, neighborhood-planning", "community", "blog", "SW", "1", "contact@wwrhah.org", null ]
+, [ 257, "62EA1283-07D9-461A-AF48-FB18704B20B4", 257, 1422955558, "390584", 1422955558, "390584", "{\n}", "White Center Community Development Association", [ "http://www.wccda.org/home", null ], "White Center", "Delridge", "nonprofit", "community", "website", "SW", "1", "sili@wccda.org", null ]
+, [ 258, "9E9B36D2-5E23-40D9-B159-9B1FBE77ECC2", 258, 1422955558, "390584", 1422955558, "390584", "{\n}", "White Center Community Development Association blog", [ "http://twitter.com/whitecentercda", null ], "White Center", "Delridge", "nonprofit", "community", "website", "SW", "1", null, null ]
+, [ 259, "50DD943B-A28A-4F9E-BF4C-D8B00303F7CD", 259, 1422955558, "390584", 1422955558, "390584", "{\n}", "White Center Now", [ "http://whitecenternow.com/", null ], "White Center", "Delridge", "news, events, food", "community", "blog", "SW", "1", "whitecenternow@gmail.com", null ]
+, [ 260, "24099DBE-5679-4325-B973-EA07E4B2E17A", 260, 1422955558, "390584", 1422955558, "390584", "{\n  \"invalidCells\" : {\n    \"24411000\" : \"feedback@wingluke.org.\"\n  }\n}", "Wing Luke Asian Museum", [ "http://www.wingluke.org/", null ], "Chinatown International District", "Downtown", "museum", "community", "website", "W", "2", null, null ]
+, [ 261, "0B056EE7-97D1-4DD6-95C5-0A31BE1F7C73", 261, 1422955558, "390584", 1422955558, "390584", "{\n}", "Youngstown Cultural Arts Center", [ "http://youngstownarts.org", null ], "Delridge", "Delridge", "arts", "community", "website", "SW", "1", "office@youngstownarts.org", null ]
+, [ 262, "0CD3CE02-4623-4A48-9399-0CE1D0C93753", 262, 1422955558, "390584", 1422955558, "390584", "{\n}", "Your Capitol Hill", [ "http://www.yourcapitolhill.com/", null ], "Capitol Hill", "East", "dining, events, nightlife, shopping", "community", "website", "E", "3", null, null ]
+, [ 263, "DC5C718A-DCB6-43B5-9F7D-524F407819A0", 263, 1422955558, "390584", 1422955558, "390584", "{\n}", "Your South Park", [ "http://groups.yahoo.com/group/yoursouthpark/", null ], "South Park", "Greater Duwamish", "community members", "community", "email list", "S", "1", "yoursouthpark@yahoo.com", null ]
+, [ 255, "BD6A6EF3-1DC2-4CBA-8E37-F7A70A6D67B1", 255, 1422955558, "390584", 1424166109, "390584", null, "West Woodland Neighbors", [ "https://www.facebook.com/groups/westwoodlandneighbors", null ], "West Woodland", "Ballard", "neighborhood-issues, neighborhood-planning, crime", "community", "facebook page", "NW", "4", "sp496761@gmail.com", null ]
+, [ 266, "47D60B87-6EBC-4BC4-B3D8-AEECC3DC01FB", 266, 1424275789, "390584", 1424275867, "390584", null, "Capitol Hill EcoDistrict", [ "http://capitolhillecodistrict.org/", null ], "Capitol Hill", "East", "neighborhood-issues, neighborhood-planning, news", "community", "website", "E", "3", "info@capitolhillecodistrict.org", null ]
+, [ 267, "04F08E1B-E27C-45BD-B611-359404F88010", 267, 1424275950, "390584", 1424276040, "390584", null, "West Woodland Neighbors", [ "https://westwoodland.wordpress.com/", null ], "West Woodland", "Ballard", "neighborhood-issues, neighborhood-planning, news", "community", "website", "NW", "4", "westwoodlandneighbors@gmail.com", null ]
+, [ 268, "3EA442C0-809D-4A91-A02B-C6C9A608179C", 268, 1475739096, "anonymous", 1475739096, "anonymous", null, "facebook", [ "http://www.facebook.com", "social network" ], "twitter", null, null, null, null, null, null, null, null ]
+ ]
+}
